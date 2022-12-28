@@ -143,12 +143,12 @@ EvosMovesPointerTable:
 	dw PorygonEvosMoves
 	dw AerodactylEvosMoves
 	dw MagnemiteEvosMoves
+	dw MissingNoAFEvosMoves
 	dw CharmanderEvosMoves
 	dw SquirtleEvosMoves
 	dw CharmeleonEvosMoves
 	dw WartortleEvosMoves
 	dw CharizardEvosMoves
-	dw MissingNoB5EvosMoves
 	dw FossilKabutopsEvosMoves
 	dw FossilAerodactylEvosMoves
 	dw MonGhostEvosMoves
@@ -1759,6 +1759,12 @@ MagnemiteEvosMoves:
 	db 35, THUNDER_WAVE
 	db 41, SWIFT
 	db 47, SCREECH
+	db 0
+
+MissingNoAFEvosMoves:
+; Evolutions
+	db 0
+; Learnset
 	db 0
 
 CharmanderEvosMoves:
