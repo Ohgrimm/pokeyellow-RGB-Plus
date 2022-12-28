@@ -1,7 +1,7 @@
 Route3WildMons:
 	def_grass_wildmons 20 ; encounter rate
-	db 10, SPEAROW
 	db 10, RATTATA
+	db 10, SPEAROW
 	db 10, EKANS
 	db 10, SANDSHREW
 	db 12, SANDSHREW
