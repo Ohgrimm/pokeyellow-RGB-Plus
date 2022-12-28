@@ -7,9 +7,9 @@ Route4WildMons:
 	db 12, EKANS
 	db 12, SANDSHREW
 	db 10, JIGGLYPUFF
-	db 12, JIGGLYPUFF
+	db 10, JIGGLYPUFF
 	db 10, PSYDUCK
-	db 12, PSYDUCK
+	db 10, PSYDUCK
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
