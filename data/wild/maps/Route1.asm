@@ -5,11 +5,11 @@ Route1WildMons:
 	db  4, PIDGEY
 	db  4, RATTATA
 	db  4, RATTATA
-	db  5, PIDGEY
-	db  5, RATTATA
+	db  4, PIDGEY
+	db  4, RATTATA
 	db  5, BELLSPROUT
-	db  4, ODDISH
-	db  4, ODDISH
+	db  5, ODDISH
+	db  5, ODDISH
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
