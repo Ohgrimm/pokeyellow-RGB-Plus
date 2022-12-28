@@ -64,7 +64,7 @@ ItemPrices::
 	bcd3 300   ; LEMONADE
 	bcd3 0     ; S_S_TICKET
 	bcd3 0     ; GOLD_TEETH
-	bcd3 100   ; X_ATTACK
+	bcd3 2500  ; LINK_CABLE
 	bcd3 100   ; X_DEFEND
 	bcd3 100   ; X_SPEED
 	bcd3 100   ; X_SPECIAL
