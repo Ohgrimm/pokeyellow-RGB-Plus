@@ -8,7 +8,7 @@ Route2WildMons:
 	db  5, NIDORAN_M
 	db  5, PIDGEY
 	db  5, CATERPIE
-	db  5, CATERPIE
+	db  5, WEEDLE
 	db  5, WEEDLE
 	end_grass_wildmons
 
