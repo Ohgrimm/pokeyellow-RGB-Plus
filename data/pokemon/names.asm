@@ -140,7 +140,7 @@ MonsterNames::
 	db "PORYGON@@@"
 	db "AERODACTYL"
 	db "MAGNEMITE@"
-	db "MISSINGNO."
+	db "MISSINGNO@"
 	db "CHARMANDER"
 	db "SQUIRTLE@@"
 	db "CHARMELEON"
