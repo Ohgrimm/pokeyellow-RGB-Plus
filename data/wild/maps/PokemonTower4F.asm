@@ -1,5 +1,5 @@
 PokemonTower4FWildMons:
-def_grass_wildmons 10 ; encounter rate
+	def_grass_wildmons 10 ; encounter rate
 	db 20, GASTLY ; 20
 	db 20, GASTLY ; 20
 	db 22, GASTLY ; 15
