@@ -3,24 +3,24 @@ Route6WildMons:
 	db 18, PIDGEOTTO ; 20
 	db 18, RATTATA ; 20
 	db 10, ABRA ; 15
-	db 16, PIDGEY ; 10
-	db 16, RATTATA ; 10
-	db 17, PIDGEY ; 10
-	db 17, PIDGEOTTO ; 5
-	db  3, JIGGLYPUFF ; 5
-	db  5, JIGGLYPUFF ; 4
-	db  7, JIGGLYPUFF ; 1
+	db 15, MANKEY ; 10
+	db 15, ODDISH ; 10
+	db 15, BELLSPROUT ; 10
+	db 15, GROWLITHE ; 5
+	db 15, VULPIX ; 5
+	db 15, PSYDUCK ; 4
+	db 15, PSYDUCK ; 1
 	end_grass_wildmons
 
 	def_water_wildmons 3 ; encounter rate
-	db 15, PSYDUCK ; 20
-	db 15, PSYDUCK ; 20
-	db 15, PSYDUCK ; 15
-	db 15, PSYDUCK ; 10
-	db 15, PSYDUCK ; 10
-	db 15, PSYDUCK ; 10
-	db 15, PSYDUCK ; 5
-	db 15, PSYDUCK ; 5
-	db 15, GOLDUCK ; 4
-	db 20, GOLDUCK ; 1
+	db 20, PSYDUCK ; 20
+	db 20, PSYDUCK ; 20
+	db 20, PSYDUCK ; 15
+	db 20, PSYDUCK ; 10
+	db 20, PSYDUCK ; 10
+	db 20, PSYDUCK ; 10
+	db 25, PSYDUCK ; 5
+	db 25, PSYDUCK ; 5
+	db 30, GOLDUCK ; 4
+	db 35, GOLDUCK ; 1
 	end_water_wildmons
