@@ -5,7 +5,7 @@ Route5WildMons:
 	db 15, JIGGLYPUFF ; 15
 	db 15, BELLSPROUT ; 10
 	db 15, ODDISH ; 10
-	db 15, ABRA ; 10
+	db 10, ABRA ; 10
 	db 18, PIDGEOTTO ; 5
 	db 15, VULPIX ; 5
 	db 15, GROWLITHE ; 4
