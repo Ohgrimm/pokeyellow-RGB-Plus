@@ -3,7 +3,7 @@ Route13WildMons:
 	db 30, GLOOM ; 20
 	db 30, WEEPINBELL ; 20
 	db 30, FARFETCHD ; 15
-	db 32, FARFETCHD ; 10
+	db 25, KRABBY ; 10
 	db 32, GLOOM ; 10
 	db 32, WEEPINBELL ; 10
 	db 34, GLOOM ; 5
