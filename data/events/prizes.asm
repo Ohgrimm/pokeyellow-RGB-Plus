@@ -4,37 +4,37 @@ PrizeDifferentMenuPtrs:
 	dw PrizeMenuTMsEntries,  PrizeMenuTMsCost
 
 PrizeMenuMon1Entries:
-	db ABRA
-	db VULPIX
-	db WIGGLYTUFF
+	db EEVEE
+	db HITMONCHAN
+	db HITMONLEE
 	db "@"
 
 PrizeMenuMon1Cost:
-	bcd2 230
+	bcd2 2500
 	bcd2 1000
-	bcd2 2680
+	bcd2 1000
 	db "@"
 
 PrizeMenuMon2Entries:
-	db SCYTHER
-	db PINSIR
+	db CHANSEY
+	db RAICHU
 	db PORYGON
 	db "@"
 
 PrizeMenuMon2Cost:
-	bcd2 6500
-	bcd2 6500
-	bcd2 9999
+	bcd2 2500
+	bcd2 2500
+	bcd2 5000
 	db "@"
 
 PrizeMenuTMsEntries:
-	db TM_DRAGON_RAGE
+	db TM_DRAGONBREATH
 	db TM_HYPER_BEAM
 	db TM_SUBSTITUTE
 	db "@"
 
 PrizeMenuTMsCost:
-	bcd2 3300
-	bcd2 5500
-	bcd2 7700
+	bcd2 2500
+	bcd2 2500
+	bcd2 2500
 	db "@"
