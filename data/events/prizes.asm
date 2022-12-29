@@ -16,8 +16,8 @@ PrizeMenuMon1Cost:
 	db "@"
 
 PrizeMenuMon2Entries:
+	db DRATINI
 	db CHANSEY
-	db RAICHU
 	db PORYGON
 	db "@"
 
