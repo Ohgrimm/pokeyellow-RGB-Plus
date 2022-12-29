@@ -1,6 +1,6 @@
 ItemPrices::
 	table_width 3, ItemPrices
-	bcd3 0     ; MASTER_BALL
+	bcd3 100000 ; MASTER_BALL
 	bcd3 1000  ; ULTRA_BALL
 	bcd3 500   ; GREAT_BALL
 	bcd3 100   ; POKE_BALL
