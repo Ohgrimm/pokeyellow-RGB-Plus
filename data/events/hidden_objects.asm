@@ -118,18 +118,18 @@ Mansion2HiddenObjects:
 	db -1 ; end
 
 Mansion3HiddenObjects:
-	hidden_object  1,  9, MAX_REVIVE, HiddenItems
+	hidden_object  1,  9, HELIX_FOSSIL, HiddenItems
 	hidden_object 10,  5, SPRITE_FACING_UP, Mansion3Script_Switches
 	db -1 ; end
 
 Mansion4HiddenObjects:
-	hidden_object  1,  9, RARE_CANDY, HiddenItems
+	hidden_object  1,  9, DOME_FOSSIL, HiddenItems
 	hidden_object 20,  3, SPRITE_FACING_UP, Mansion4Script_Switches
 	hidden_object 18, 25, SPRITE_FACING_UP, Mansion4Script_Switches
 	db -1 ; end
 
 SafariZoneWestHiddenObjects:
-	hidden_object  6,  5, REVIVE, HiddenItems
+	hidden_object  6,  5, MAX_REVIVE, HiddenItems
 	db -1 ; end
 
 CeruleanCave2HiddenObjects:
@@ -157,23 +157,23 @@ SeafoamIslands5HiddenObjects:
 	db -1 ; end
 
 ViridianForestHiddenObjects:
-	hidden_object  1, 18, POTION, HiddenItems
-	hidden_object 16, 42, ANTIDOTE, HiddenItems
+	hidden_object  1, 18, FRESH_WATER, HiddenItems
+	hidden_object 16, 42, FULL_HEAL, HiddenItems
 	db -1 ; end
 
 MtMoon3HiddenObjects:
 	hidden_object 18, 12, MOON_STONE, HiddenItems
-	hidden_object 33,  9, ETHER, HiddenItems
+	hidden_object 33,  9, MAX_ELIXER, HiddenItems
 	db -1 ; end
 
 SSAnne10HiddenObjects:
-	hidden_object  3,  1, HYPER_POTION, HiddenItems
+	hidden_object  3,  1, FULL_RESTORE, HiddenItems
 	db -1 ; end
 
 SSAnne6HiddenObjects:
 	hidden_object 13,  5, SPRITE_FACING_DOWN, PrintTrashText
 	hidden_object 13,  7, SPRITE_FACING_DOWN, PrintTrashText
-	hidden_object 13,  9, GREAT_BALL, HiddenItems
+	hidden_object 13,  9, ULTRA_BALL, HiddenItems
 	db -1 ; end
 
 UndergroundPathNsHiddenObjects:
