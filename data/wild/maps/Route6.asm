@@ -6,7 +6,7 @@ Route6WildMons:
 	db 15, MANKEY ; 10
 	db 15, ODDISH ; 10
 	db 15, BELLSPROUT ; 10
-	db 15, GROWLITHE ; 5
+	db 15, VULPIX ; 5
 	db 15, VULPIX ; 5
 	db 15, PSYDUCK ; 4
 	db 15, PSYDUCK ; 1
