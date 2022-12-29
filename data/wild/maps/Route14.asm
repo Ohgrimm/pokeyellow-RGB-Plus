@@ -8,8 +8,8 @@ Route14WildMons:
 	db 34, WEEPINBELL ; 10
 	db 30, KINGLER ; 5
 	db 30, DITTO ; 5
-	db 35, VENOMOTH ; 4
-	db 35, VENOMOTH ; 1
+	db 25, CHANSEY ; 4
+	db 25, CHANSEY ; 1
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
