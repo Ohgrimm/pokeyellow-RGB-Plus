@@ -3,7 +3,7 @@ Route14WildMons:
 	db 25, VENONAT ; 20
 	db 30, VENONAT ; 20
 	db 35, FARFETCHD ; 15
-	db 25, KRABBY ; 10
+	db 30, KRABBY ; 10
 	db 34, GLOOM ; 10
 	db 34, WEEPINBELL ; 10
 	db 36, GLOOM ; 5
