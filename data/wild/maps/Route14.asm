@@ -1,15 +1,15 @@
 Route14WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 26, ODDISH
-	db 26, BELLSPROUT
-	db 24, VENONAT
-	db 30, PIDGEOTTO
-	db 28, ODDISH
-	db 28, BELLSPROUT
-	db 30, GLOOM
-	db 30, WEEPINBELL
-	db 27, VENONAT
-	db 30, VENOMOTH
+	db 25, VENONAT ; 20
+	db 30, VENONAT ; 20
+	db 30, FARFETCHD ; 15
+	db 35, FARFETCHD ; 10
+	db 34, GLOOM ; 10
+	db 34, WEEPINBELL ; 10
+	db 36, GLOOM ; 5
+	db 36, WEEPINBELL ; 5
+	db 35, VENOMOTH ; 4
+	db 35, VENOMOTH ; 1
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
