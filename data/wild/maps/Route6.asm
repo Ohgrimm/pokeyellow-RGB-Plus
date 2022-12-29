@@ -3,7 +3,7 @@ Route6WildMons:
 	db 18, PIDGEOTTO ; 20
 	db 18, RATTATA ; 20
 	db 10, ABRA ; 15
-	db 15, MANKEY ; 10
+	db 15, ABRA ; 10
 	db 15, ODDISH ; 10
 	db 15, BELLSPROUT ; 10
 	db 15, VULPIX ; 5
