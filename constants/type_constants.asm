@@ -10,7 +10,7 @@ DEF PHYSICAL EQU const_value
 	const ROCK         ; $05
 	const BUG          ; $06
 	const STEEL        ; $07
-	const ICE.         ; $08
+	const ICE          ; $08
 	const DRAGON       ; $0
 
 DEF UNUSED_TYPES EQU const_value
