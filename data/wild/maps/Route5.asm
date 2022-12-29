@@ -7,7 +7,7 @@ Route5WildMons:
 	db 15, ODDISH ; 10
 	db 10, ABRA ; 10
 	db 18, PIDGEOTTO ; 5
-	db 15, VULPIX ; 5
+	db 15, GROWLITHE ; 5
 	db 15, GROWLITHE ; 4
 	db 15, GROWLITHE ; 1
 	end_grass_wildmons
