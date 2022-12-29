@@ -64,7 +64,7 @@ ItemNames::
 	li "LEMONADE"
 	li "S.S.TICKET"
 	li "GOLD TEETH"
-	li "LINK_CABLE"
+	li "LINK CABLE"
 	li "X DEFEND"
 	li "X SPEED"
 	li "X SPECIAL"
