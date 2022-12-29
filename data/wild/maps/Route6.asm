@@ -1,8 +1,8 @@
 Route6WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 15, PIDGEY ; 20
-	db 14, RATTATA ; 20
-	db  7, ABRA ; 15
+	db 18, PIDGEOTTO ; 20
+	db 18, RATTATA ; 20
+	db 10, ABRA ; 15
 	db 16, PIDGEY ; 10
 	db 16, RATTATA ; 10
 	db 17, PIDGEY ; 10
