@@ -106,7 +106,7 @@ SilphCo11FHiddenObjects:
 	db -1 ; end
 
 SilphCo5FHiddenObjects:
-	hidden_object 12,  3, ELIXER, HiddenItems
+	hidden_object 12,  3, MAX_ELIXER, HiddenItems
 	db -1 ; end
 
 SilphCo9FHiddenObjects:
@@ -163,7 +163,7 @@ ViridianForestHiddenObjects:
 
 MtMoon3HiddenObjects:
 	hidden_object 18, 12, MOON_STONE, HiddenItems
-	hidden_object 33,  9, MAX_ELIXER, HiddenItems
+	hidden_object 33,  9, MOON_STONE, HiddenItems
 	db -1 ; end
 
 SSAnne10HiddenObjects:
