@@ -1668,7 +1668,7 @@ ItemUseEscapeRope:
 INCLUDE "data/tilesets/escape_rope_tilesets.asm"
 
 ItemUseRepel:
-	ld b, 100
+	ld b, 75
 
 ItemUseRepelCommon:
 	ld a, [wIsInBattle]
@@ -1772,11 +1772,11 @@ ItemUseGuardSpec:
 	jp PrintItemUseTextAndRemoveItem
 
 ItemUseSuperRepel:
-	ld b, 200
+	ld b, 130
 	jp ItemUseRepelCommon
 
 ItemUseMaxRepel:
-	ld b, 250
+	ld b, 255
 	jp ItemUseRepelCommon
 
 ItemUseDireHit:
@@ -2020,7 +2020,7 @@ CoinCaseNumCoinsText:
 ItemUseOldRod:
 	call FishingInit
 	jp c, ItemUseNotTime
-	lb bc, 5, MAGIKARP
+	lb bc, 15, MAGIKARP
 	ld a, $1 ; set bite
 	jr RodResponse
 
@@ -2510,8 +2510,7 @@ ItemUseTMHM:
 
 	ld a, [wcf91]
 	call IsItemHM
-	ret c
-	jp RemoveUsedItem
+	ret
 
 BootedUpTMText:
 	text_far _BootedUpTMText
