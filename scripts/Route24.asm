@@ -110,7 +110,7 @@ Route24Text1:
 	jr nz, .got_item
 	ld hl, Route24Text_51510
 	call PrintText
-	lb bc, NUGGET, 1
+	lb bc, NUGGET, 2
 	call GiveItem
 	jr nc, .bag_full
 	SetEvent EVENT_GOT_NUGGET
@@ -296,7 +296,7 @@ Route24Text8:
 	call GetMonName
 	ld a, $1
 	ld [wDoNotWaitForButtonPressAfterDisplayingText], a
-	lb bc, CHARMANDER, 10
+	lb bc, CHARMANDER, 15
 	call GivePokemon
 	jp nc, TextScriptEnd
 	ld a, [wAddedToParty]
