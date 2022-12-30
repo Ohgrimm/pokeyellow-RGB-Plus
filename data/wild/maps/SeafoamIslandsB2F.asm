@@ -7,7 +7,7 @@ SeafoamIslandsB2FWildMons:
 	db 28, KINGLER
 	db 24, SEEL
 	db 29, KRABBY
-	db 36, JYNX
+	db 30, JYNX
 	db 20, LAPRAS
 	db 20, LAPRAS
 	end_grass_wildmons
