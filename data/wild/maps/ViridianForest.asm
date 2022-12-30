@@ -9,7 +9,7 @@ ViridianForestWildMons:
 	db  6, CATERPIE ; 5
 	db  6, WEEDLE ; 5
 	db  5, BULBASAUR ; 4
-	db  5, BULBASAUR ; 1
+	db  5, PIKACHU ; 1
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
