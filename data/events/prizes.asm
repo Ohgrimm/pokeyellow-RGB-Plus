@@ -17,7 +17,7 @@ PrizeMenuMon1Cost:
 
 PrizeMenuMon2Entries:
 	db DRATINI
-	db CHANSEY
+	db SNORLAX
 	db PORYGON
 	db "@"
 
