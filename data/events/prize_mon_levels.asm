@@ -4,5 +4,5 @@ PrizeMonLevelDictionary:
 	db HITMONCHAN, 10
 
 	db DRATINI,    10
-	db CHANSEY,    10
+	db SNORLAX,    10
 	db PORYGON,    10
