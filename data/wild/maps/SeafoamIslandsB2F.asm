@@ -7,9 +7,9 @@ SeafoamIslandsB2FWildMons:
 	db 28, KINGLER
 	db 24, SEEL
 	db 29, KRABBY
-	db 36, GOLBAT
-	db 31, SLOWPOKE
-	db 31, SLOWBRO
+	db 36, JYNX
+	db 20, LAPRAS
+	db 20, LAPRAS
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
