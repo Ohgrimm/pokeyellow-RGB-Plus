@@ -8,8 +8,8 @@ Route13WildMons:
 	db 32, WEEPINBELL ; 10
 	db 25, KRABBY ; 5
 	db 30, DITTO ; 5
-	db 35, FARFETCHD ; 4
-	db 35, FARFETCHD ; 1
+	db 25, CHANSEY ; 4
+	db 25, CHANSEY ; 1
 	end_grass_wildmons
 
 	def_water_wildmons 3 ; encounter rate
