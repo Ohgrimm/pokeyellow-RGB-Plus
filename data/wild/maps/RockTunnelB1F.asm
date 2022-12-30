@@ -8,8 +8,8 @@ RockTunnelB1FWildMons:
 	db 27, GRAVELER ; 10
 	db 20, ONIX ; 5
 	db 25, ONIX ; 5
-	db 15, CHARMANDER ; 4
-	db 15, CHARMANDER ; 1
+	db 5, CHARMANDER ; 4
+	db 5, CHARMANDER ; 1
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
