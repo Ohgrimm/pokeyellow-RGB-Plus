@@ -8,8 +8,8 @@ SeafoamIslandsB3FWildMons:
 	db 26, SEEL
 	db 31, KRABBY
 	db 30, SEEL
-	db 28, DEWGONG
-	db 32, DEWGONG
+	db 20, LAPRAS
+	db 20, LAPRAS
 	end_grass_wildmons
 
 	def_water_wildmons 5 ; encounter rate
@@ -21,6 +21,6 @@ SeafoamIslandsB3FWildMons:
 	db 30, STARYU
 	db 40, TENTACOOL
 	db 30, STARYU
-	db 30, STARYU
-	db 30, STARYU
+	db 30, LAPRAS
+	db 30, LAPRAS
 	end_water_wildmons
