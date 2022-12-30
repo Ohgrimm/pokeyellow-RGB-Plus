@@ -6,10 +6,10 @@ Route15WildMons:
 	db 32, PIDGEOTTO ; 10
 	db 28, ODDISH ; 10
 	db 28, BELLSPROUT ; 10
-	db 30, GLOOM ; 5
-	db 30, WEEPINBELL ; 5
-	db 27, VENONAT ; 4
-	db 30, VENOMOTH ; 1
+	db 30, LICKITUNG ; 5
+	db 30, TAURUS ; 5
+	db 36, VENOMOTH ; 4
+	db 36, VENOMOTH ; 1
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
