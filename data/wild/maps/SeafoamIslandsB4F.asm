@@ -8,8 +8,8 @@ SeafoamIslandsB4FWildMons:
 	db 32, SEEL
 	db 27, GOLBAT
 	db 45, ZUBAT
-	db 30, DEWGONG
-	db 34, DEWGONG
+	db 5, SQUIRTLE
+	db 5, SQUIRTLE
 	end_grass_wildmons
 
 	def_water_wildmons 5 ; encounter rate
@@ -21,6 +21,6 @@ SeafoamIslandsB4FWildMons:
 	db 30, STARYU
 	db 40, TENTACOOL
 	db 30, STARYU
-	db 30, STARYU
-	db 30, STARYU
+	db 5, SQUIRTLE
+	db 5, SQUIRTLE
 	end_water_wildmons
