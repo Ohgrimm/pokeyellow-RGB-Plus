@@ -7,7 +7,7 @@ SeafoamIslandsB4FWildMons:
 	db 28, SEEL
 	db 32, SEEL
 	db 27, GOLBAT
-	db 45, ZUBAT
+	db 20, LAPRAS
 	db 5, SQUIRTLE
 	db 5, SQUIRTLE
 	end_grass_wildmons
@@ -20,7 +20,7 @@ SeafoamIslandsB4FWildMons:
 	db 35, TENTACOOL
 	db 30, STARYU
 	db 40, TENTACOOL
-	db 30, STARYU
+	db 20, LAPRAS
 	db 5, SQUIRTLE
 	db 5, SQUIRTLE
 	end_water_wildmons
