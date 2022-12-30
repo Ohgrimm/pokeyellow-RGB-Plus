@@ -7,7 +7,7 @@ PowerPlantWildMons:
 	db 35, MAGNETON ; 10
 	db 36, GRIMER ; 10
 	db 40, MUK ; 5
-	db 35, RAICHU ; 5
+	db 15, PIKACHU ; 5
 	db 35, ELECTABUZZ ; 4
 	db 40, ELECTABUZZ ; 1
 	end_grass_wildmons
