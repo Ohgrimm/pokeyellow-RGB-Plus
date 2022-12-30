@@ -6,10 +6,10 @@ Route12WildMons:
 	db 30, FARFETCHD ; 10
 	db 32, GLOOM ; 10
 	db 32, WEEPINBELLL ; 10
-	db 34, GLOOM ; 5
-	db 34, WEEPINBELL ; 5
-	db 35, FARFETCHD ; 4
-	db 35, FARFETCHD ; 1
+	db 25, PINSIR ; 5
+	db 25, SCYTHER ; 5
+	db 35, LICKITUNG ; 4
+	db 35, LICKITUNG ; 1
 	end_grass_wildmons
 
 	def_water_wildmons 3 ; encounter rate
