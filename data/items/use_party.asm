@@ -32,5 +32,5 @@ UsableItems_PartyMenu:
 	db MAX_ETHER
 	db ELIXER
 	db MAX_ELIXER
-	db LINK_CABLE
+	db LINKING_CORD
 	db -1 ; end
