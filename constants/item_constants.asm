@@ -73,7 +73,7 @@ DEF SAFARI_ROCK EQU $16 ; overload
 	const LEMONADE      ; $3E
 	const S_S_TICKET    ; $3F
 	const GOLD_TEETH    ; $40
-	const X_ATTACK      ; $41
+	const LINKING_CORD  ; $41
 	const X_DEFEND      ; $42
 	const X_SPEED       ; $43
 	const X_SPECIAL     ; $44
