@@ -575,7 +575,7 @@ SlowpokeEvosMoves:
 KadabraEvosMoves:
 ; Evolutions
 	db EV_TRADE, 1, ALAKAZAM
-	db EV_ITEM, LINK_CABLE, 1, ALAKAZAM
+	db EV_ITEM, LINKING_CORD, 1, ALAKAZAM
 	db 0
 ; Learnset
 	db 16, CONFUSION
@@ -589,7 +589,7 @@ KadabraEvosMoves:
 GravelerEvosMoves:
 ; Evolutions
 	db EV_TRADE, 1, GOLEM
-	db EV_ITEM, LINK_CABLE, 1, GOLEM
+	db EV_ITEM, LINKING_CORD, 1, GOLEM
 	db 0
 ; Learnset
 	db 11, DEFENSE_CURL
@@ -616,7 +616,7 @@ ChanseyEvosMoves:
 MachokeEvosMoves:
 ; Evolutions
 	db EV_TRADE, 1, MACHAMP
-	db EV_ITEM, LINK_CABLE, 1, ALAKAZAM
+	db EV_ITEM, LINKING_CORD, 1, MACHAMP
 	db 0
 ; Learnset
 	db 20, LOW_KICK
@@ -1520,7 +1520,7 @@ MarowakEvosMoves:
 HaunterEvosMoves:
 ; Evolutions
 	db EV_TRADE, 1, GENGAR
-	db EV_ITEM, LINK_CABLE, 1, GENGAR
+	db EV_ITEM, LINKING_CORD, 1, GENGAR
 	db 0
 ; Learnset
 	db 29, HYPNOSIS
