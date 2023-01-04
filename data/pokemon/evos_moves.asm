@@ -1532,6 +1532,7 @@ AbraEvosMoves:
 	db EV_LEVEL, 16, KADABRA
 	db 0
 ; Learnset
+	db 15, CONFUSION
 	db 0
 
 AlakazamEvosMoves:
@@ -1742,10 +1743,11 @@ AerodactylEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 33, SUPERSONIC
-	db 38, BITE
-	db 45, TAKE_DOWN
-	db 54, HYPER_BEAM
+	db 35, BITE
+	db 40, TAKE_DOWN
+	db 45, HYPER_BEAM
+	db 50, DRAGONBREATH
+	db 55, ROCK_SLIDE
 	db 0
 
 MagnemiteEvosMoves:
