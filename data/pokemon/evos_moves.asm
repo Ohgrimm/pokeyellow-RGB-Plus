@@ -1747,7 +1747,7 @@ AerodactylEvosMoves:
 	db 40, TAKE_DOWN
 	db 45, HYPER_BEAM
 	db 50, DRAGONBREATH
-	db 55, ROCK_SLIDE
+	db 60, ROCK_SLIDE
 	db 0
 
 MagnemiteEvosMoves:
