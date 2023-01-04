@@ -1,11 +1,11 @@
 	db DEX_ARCANINE ; pokedex id
 
-	db  90, 110,  80,  95,  80
+	db  105, 120,  90,  105,  90 ; (510) +15, +10, +10, +10, +10
 	;   hp  atk  def  spd  spc
 
 	db FIRE, FIRE ; type
-	db 75 ; catch rate
-	db 213 ; base exp
+	db 45 ; catch rate
+	db 210 ; base exp
 
 	INCBIN "gfx/pokemon/front/arcanine.pic", 0, 1 ; sprite dimensions
 	dw ArcaninePicFront, ArcaninePicBack
