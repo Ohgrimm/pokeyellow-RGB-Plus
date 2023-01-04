@@ -1,11 +1,11 @@
 	db DEX_ABRA ; pokedex id
 
-	db  30,  15,  15,  90, 75
+	db  30,  15,  15,  90, 90
 	;   hp  atk  def  spd  spc
 
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
-	db 195 ; catch rate
-	db 60 ; base exp
+	db 200 ; catch rate
+	db 75 ; base exp
 
 	INCBIN "gfx/pokemon/front/abra.pic", 0, 1 ; sprite dimensions
 	dw AbraPicFront, AbraPicBack
