@@ -16,7 +16,7 @@ Route2_Object:
 
 	def_object_events
 	object_event 13, 54, SPRITE_POKE_BALL, STAY, NONE, 1, LINKING_CORD
-	object_event 13, 45, SPRITE_POKE_BALL, STAY, NONE, 2, MOON_STONE
+	object_event 13, 45, SPRITE_POKE_BALL, STAY, NONE, 2, LEAF_STONE
 
 	def_warps_to ROUTE_2
 
