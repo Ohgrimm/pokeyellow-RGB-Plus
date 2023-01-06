@@ -1193,19 +1193,19 @@ ItemUseMedicine:
 .notUsingSoftboiled2
 	ld a, [wcf91]
 	cp SODA_POP
-	ld b, 60 ; Soda Pop heal amount
+	ld b, 75 ; Soda Pop heal amount
 	jr z, .addHealAmount
-	ld b, 80 ; Lemonade heal amount
+	ld b, 100 ; Lemonade heal amount
 	jr nc, .addHealAmount
 	cp FRESH_WATER
 	ld b, 50 ; Fresh Water heal amount
 	jr z, .addHealAmount
 	cp SUPER_POTION
-	ld b, 200 ; Hyper Potion heal amount
+	ld b, 150 ; Hyper Potion heal amount
 	jr c, .addHealAmount
 	ld b, 50 ; Super Potion heal amount
 	jr z, .addHealAmount
-	ld b, 20 ; Potion heal amount
+	ld b, 25 ; Potion heal amount
 .addHealAmount
 	pop de
 	pop hl
