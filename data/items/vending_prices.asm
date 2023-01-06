@@ -5,6 +5,6 @@ ENDM
 
 VendingPrices:
 	; item id, price
-	vend_item FRESH_WATER, 100
-	vend_item SODA_POP,    200
-	vend_item LEMONADE,    300
+	vend_item FRESH_WATER, 50
+	vend_item SODA_POP,    100
+	vend_item LEMONADE,    150
