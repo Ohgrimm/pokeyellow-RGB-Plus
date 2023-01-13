@@ -579,11 +579,11 @@ KadabraEvosMoves:
 	db 0
 ; Learnset
 	db 16, CONFUSION
-	db 20, DISABLE
-	db 27, PSYBEAM
-	db 31, RECOVER
-	db 38, PSYCHIC_M
-	db 42, REFLECT
+	db 18, DISABLE
+	db 24, REFLECT
+	db 28, PSYBEAM	
+	db 34, RECOVER
+	db 40, PSYCHIC_M
 	db 0
 
 GravelerEvosMoves:
@@ -1532,19 +1532,15 @@ AbraEvosMoves:
 	db EV_LEVEL, 16, KADABRA
 	db 0
 ; Learnset
-	db 15, CONFUSION
 	db 0
 
 AlakazamEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, CONFUSION
-	db 20, DISABLE
-	db 27, PSYBEAM
-	db 31, RECOVER
-	db 38, PSYCHIC_M
-	db 42, REFLECT
+	db 41, REFLECT
+	db 41, RECOVER
+	db 51, PSYCHIC_M
 	db 0
 
 PidgeottoEvosMoves:
