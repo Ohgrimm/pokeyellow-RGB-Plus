@@ -16,7 +16,7 @@ Route2_Object:
 
 	def_object_events
 	object_event 13, 54, SPRITE_POKE_BALL, STAY, NONE, 1, RARE_CANDY
-	object_event 13, 45, SPRITE_POKE_BALL, STAY, NONE, 2, RARE_CANDY
+	object_event 13, 45, SPRITE_POKE_BALL, STAY, NONE, 2, ULTRA_BALL
 
 	def_warps_to ROUTE_2
 
