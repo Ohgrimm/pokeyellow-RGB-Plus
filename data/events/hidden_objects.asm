@@ -259,7 +259,7 @@ BillsHouseHiddenObjects:
 	db -1 ; end
 
 Route4HiddenObjects:
-	hidden_object 40,  3, FIRE_STONE, HiddenItems
+	hidden_object 40,  3, MOON_STONE, HiddenItems
 	db -1 ; end
 
 MtMoonPokecenterHiddenObjects:
@@ -329,7 +329,7 @@ OaksLabHiddenObjects:
 	db -1 ; end
 
 ViridianCityHiddenObjects:
-	hidden_object 14,  4, FRESH_WATER, HiddenItems
+	hidden_object 14,  4, LINKING_CORD, HiddenItems
 	db -1 ; end
 
 ViridianPokecenterHiddenObjects:
@@ -363,7 +363,7 @@ PewterPokecenterHiddenObjects:
 	db -1 ; end
 
 CeruleanCityHiddenObjects:
-	hidden_object 15,  8, RARE_CANDY, HiddenItems
+	hidden_object 15,  8, LINKING_CORD, HiddenItems
 	db -1 ; end
 
 CeruleanPokecenterHiddenObjects:
@@ -395,7 +395,7 @@ LavenderPokecenterHiddenObjects:
 	db -1 ; end
 
 Pokemontower5HiddenObjects:
-	hidden_object  4, 12, NUGGET, HiddenItems
+	hidden_object  4, 12, FIRE_STONE, HiddenItems
 	db -1 ; end
 
 LavenderHouse1HiddenObjects:
