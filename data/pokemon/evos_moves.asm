@@ -1891,13 +1891,14 @@ BellsproutEvosMoves:
 	db EV_LEVEL, 21, WEEPINBELL
 	db 0
 ; Learnset
-	db 13, WRAP
-	db 15, POISONPOWDER
-	db 18, SLEEP_POWDER
-	db 21, STUN_SPORE
-	db 26, ACID
-	db 33, RAZOR_LEAF
-	db 42, SLAM
+	db 7, GROWTH
+	db 9, WRAP
+	db 11, POISONPOWDER
+	db 13, SLEEP_POWDER
+	db 15, STUN_SPORE
+	db 23, ACID
+	db 35, RAZOR_LEAF
+	db 41, SLAM
 	db 0
 
 WeepinbellEvosMoves:
@@ -1905,12 +1906,8 @@ WeepinbellEvosMoves:
 	db EV_ITEM, LEAF_STONE, 1, VICTREEBEL
 	db 0
 ; Learnset
-	db 13, WRAP
-	db 15, POISONPOWDER
-	db 18, SLEEP_POWDER
-	db 23, STUN_SPORE
 	db 29, ACID
-	db 38, RAZOR_LEAF
+	db 39, RAZOR_LEAF
 	db 49, SLAM
 	db 0
 
@@ -1918,7 +1915,6 @@ VictreebelEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 13, WRAP
-	db 15, POISONPOWDER
-	db 18, SLEEP_POWDER
+	db 49, RAZOR_LEAF
+	db 59, SLAM
 	db 0
