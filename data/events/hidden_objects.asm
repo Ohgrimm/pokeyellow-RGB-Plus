@@ -133,11 +133,11 @@ SafariZoneWestHiddenObjects:
 	db -1 ; end
 
 CeruleanCave2HiddenObjects:
-	hidden_object 16, 13, HELIX_FOSSIL, HiddenItems
+	hidden_object 16, 13, OLD_AMBER, HiddenItems
 	db -1 ; end
 
 CeruleanCave3HiddenObjects:
-	hidden_object  8, 14, DOME_FOSSIL, HiddenItems
+	hidden_object  8, 14, OLD_AMBER, HiddenItems
 	db -1 ; end
 
 UnusedMap6FHiddenObjects:
