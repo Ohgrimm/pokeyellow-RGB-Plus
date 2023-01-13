@@ -17,6 +17,6 @@ SilphCo10F_Object:
 	object_event  9, 15, SPRITE_ERIKA, WALK, ANY_DIR, 3 ; person
 	object_event  2, 12, SPRITE_POKE_BALL, STAY, NONE, 4, TM_EARTHQUAKE
 	object_event  4, 14, SPRITE_POKE_BALL, STAY, NONE, 5, RARE_CANDY
-	object_event  5, 11, SPRITE_POKE_BALL, STAY, NONE, 6, CARBOS
+	object_event  5, 11, SPRITE_POKE_BALL, STAY, NONE, 6, FULL_RESTORE
 
 	def_warps_to SILPH_CO_10F
