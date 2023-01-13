@@ -12,7 +12,7 @@ PokemonMansion3F_Object:
 	object_event  5, 11, SPRITE_SUPER_NERD, WALK, LEFT_RIGHT, 1, OPP_BURGLAR, 8
 	object_event 20, 11, SPRITE_SCIENTIST, STAY, LEFT, 2, OPP_SCIENTIST, 12
 	object_event  1, 16, SPRITE_POKE_BALL, STAY, NONE, 3, LINKING_CORD
-	object_event 25,  5, SPRITE_POKE_BALL, STAY, NONE, 4, RARE_CANDY
+	object_event 25,  5, SPRITE_POKE_BALL, STAY, NONE, 4, MOON_STONE
 	object_event  6, 12, SPRITE_POKEDEX, STAY, NONE, 5 ; person
 
 	def_warps_to POKEMON_MANSION_3F
