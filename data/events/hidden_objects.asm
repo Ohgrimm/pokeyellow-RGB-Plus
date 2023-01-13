@@ -137,7 +137,7 @@ CeruleanCave2HiddenObjects:
 	db -1 ; end
 
 CeruleanCave3HiddenObjects:
-	hidden_object  8, 14, OLD_AMBER, HiddenItems
+	hidden_object  8, 14, MASTER_BALL, HiddenItems
 	db -1 ; end
 
 UnusedMap6FHiddenObjects:
