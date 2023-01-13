@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/arbok.pic", 0, 1 ; sprite dimensions
 	dw ArbokPicFront, ArbokPicBack
 
-	db WRAP, SCREECH, ACID, BITE ; level 1 learnset
+	db WRAP, GLARE, ACID, BITE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
