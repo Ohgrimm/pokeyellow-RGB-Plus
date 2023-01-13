@@ -17,14 +17,14 @@ DEF UNUSED_TYPES_END EQU const_value
 
 DEF SPECIAL EQU const_value
 	
-	const GHOST        ; $13
-	const FIRE         ; $14
-	const WATER        ; $15
-	const GRASS        ; $16
-	const ELECTRIC     ; $17
-	const PSYCHIC_TYPE ; $18
-	const ICE          ; $19	
-	const DRAGON       ; $1A
-	const DARK         ; $1B
+	const GHOST        ; $14
+	const FIRE         ; $15
+	const WATER        ; $16
+	const GRASS        ; $17
+	const ELECTRIC     ; $18
+	const PSYCHIC_TYPE ; $19
+	const ICE          ; $1A	
+	const DRAGON       ; $1B
+	const DARK         ; $1C
 
 DEF NUM_TYPES EQU const_value
