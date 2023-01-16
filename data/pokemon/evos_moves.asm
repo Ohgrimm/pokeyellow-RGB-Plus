@@ -308,12 +308,12 @@ GrimerEvosMoves:
 	db EV_LEVEL, 38, MUK
 	db 0
 ; Learnset
-	db 30, POISON_GAS
-	db 33, MINIMIZE
-	db 37, SLUDGE
-	db 42, HARDEN
-	db 48, SCREECH
-	db 55, ACID_ARMOR
+	db 31, MINIMIZE
+	db 33, SLUDGE
+	db 35, TOXIC
+	db 37, SCREECH
+	db 39, ACID_ARMOR
+	db 41, BITE
 	db 0
 
 GengarEvosMoves:
@@ -408,10 +408,10 @@ GyaradosEvosMoves:
 	db 0
 ; Learnset
 	db 20, BITE
-	db 25, DRAGON_RAGE
-	db 32, LEER
-	db 41, HYDRO_PUMP
-	db 52, HYPER_BEAM
+	db 30, DRAGONBREATH
+	db 40, HYDRO_PUMP
+	db 50, THRASH
+	db 60, HYPER_BEAM
 	db 0
 
 ShellderEvosMoves:
@@ -639,22 +639,24 @@ HitmonleeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 33, ROLLING_KICK
-	db 38, JUMP_KICK
-	db 43, FOCUS_ENERGY
+	db 32, FOCUS_ENERGY
+	db 36, ROLLING_KICK
+	db 40, JUMP_KICK
+	db 44, LOW_KICK
 	db 48, HI_JUMP_KICK
-	db 53, MEGA_KICK
+	db 52, MEGA_KICK
 	db 0
 
 HitmonchanEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 33, FIRE_PUNCH
-	db 38, ICE_PUNCH
-	db 43, THUNDERPUNCH
-	db 48, MEGA_PUNCH
-	db 53, COUNTER
+	db 31, FIRE_PUNCH
+	db 32, ICE_PUNCH
+	db 33, THUNDERPUNCH
+	db 40, MEGA_PUNCH
+	db 50, COUNTER
+	db 55, KARATE_CHOP
 	db 0
 
 ArbokEvosMoves:
@@ -680,11 +682,14 @@ PsyduckEvosMoves:
 	db EV_LEVEL, 33, GOLDUCK
 	db 0
 ; Learnset
-	db 28, TAIL_WHIP
-	db 31, DISABLE
-	db 36, CONFUSION
-	db 43, FURY_SWIPES
-	db 52, HYDRO_PUMP
+	db 10, WATER_GUN
+	db 15, CONFUSION
+	db 20, FURY_SWIPES
+	db 25, DISABLE
+	db 30, HEADBUTT
+	db 33, SCREECH
+	db 39, AMNESIA
+	db 50, HYDRO_PUMP
 	db 0
 
 DrowzeeEvosMoves:
@@ -869,11 +874,11 @@ JynxEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 18, LICK
-	db 23, DOUBLESLAP
-	db 31, ICE_PUNCH
 	db 39, BODY_SLAM
 	db 47, THRASH
+	db 31, ICE_PUNCH
+	db 31, PSYCHIC_M
+	db 31, LOVELY_KISS
 	db 58, BLIZZARD
 	db 0
 
@@ -1188,11 +1193,13 @@ ZubatEvosMoves:
 	db EV_LEVEL, 22, GOLBAT
 	db 0
 ; Learnset
-	db 10, SUPERSONIC
-	db 15, BITE
-	db 21, CONFUSE_RAY
-	db 28, WING_ATTACK
-	db 36, HAZE
+	db 10, GUST
+	db 15, POISON_STING
+	db 20, CONFUSE_RAY
+	db 25, BITE
+	db 30, HAZE
+	db 45, RAZOR_WIND
+	db 55, LEECH_LIFE
 	db 0
 
 EkansEvosMoves:
@@ -1368,11 +1375,8 @@ GolduckEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 28, TAIL_WHIP
-	db 31, DISABLE
-	db 39, CONFUSION
-	db 48, FURY_SWIPES
-	db 59, HYDRO_PUMP
+	db 45, AMNESIA
+	db 55, HYDRO_PUMP
 	db 0
 
 HypnoEvosMoves:
@@ -1387,11 +1391,10 @@ GolbatEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, SUPERSONIC
-	db 15, BITE
-	db 21, CONFUSE_RAY
-	db 32, WING_ATTACK
-	db 43, HAZE
+	db 24, BITE
+	db 36, HAZE
+	db 48, RAZOR_WIND
+	db 60, LEECH_LIFE
 	db 0
 
 MewtwoEvosMoves:
@@ -1421,18 +1424,15 @@ MagikarpEvosMoves:
 	db 0
 ; Learnset
 	db 15, TACKLE
+	db 20, LEER
 	db 0
 
 MukEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, POISON_GAS
-	db 33, MINIMIZE
-	db 37, SLUDGE
-	db 45, HARDEN
-	db 53, SCREECH
-	db 60, ACID_ARMOR
+	db 45, ACID_ARMOR
+	db 50, BITE
 	db 0
 
 KinglerEvosMoves:
@@ -1601,24 +1601,22 @@ GoldeenEvosMoves:
 	db EV_LEVEL, 33, SEAKING
 	db 0
 ; Learnset
-	db 19, SUPERSONIC
-	db 24, HORN_ATTACK
-	db 30, FURY_ATTACK
-	db 37, WATERFALL
-	db 45, HORN_DRILL
-	db 54, AGILITY
+	db 5, SUPERSONIC
+	db 15, FURY_ATTACK
+	db 25, HORN_ATTACK
+	db 30, AGILITY
+	db 35, WATERFALL
+	db 40, HORN_DRILL
 	db 0
 
 SeakingEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 19, SUPERSONIC
-	db 24, HORN_ATTACK
-	db 30, FURY_ATTACK
-	db 39, WATERFALL
-	db 48, HORN_DRILL
-	db 54, AGILITY
+	db 33, HORN_ATTACK
+	db 39, AGILITY
+	db 37, WATERFALL
+	db 58, HORN_DRILL
 	db 0
 
 PonytaEvosMoves:
