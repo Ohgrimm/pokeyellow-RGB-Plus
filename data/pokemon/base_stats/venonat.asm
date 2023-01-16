@@ -1,6 +1,6 @@
 	db DEX_VENONAT ; pokedex id
 
-	db  60,  55,  50,  45,  40
+	db  60,  55,  50,  45,  60
 	;   hp  atk  def  spd  spc
 
 	db BUG, POISON ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/venonat.pic", 0, 1 ; sprite dimensions
 	dw VenonatPicFront, VenonatPicBack
 
-	db TACKLE, DISABLE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TACKLE, DISABLE, SUPERSONIC, CONFUSION ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

@@ -1,6 +1,6 @@
 	db DEX_TENTACRUEL ; pokedex id
 
-	db  80,  70,  65, 100, 120
+	db  80,  70,  65, 100, 130
 	;   hp  atk  def  spd  spc
 
 	db WATER, POISON ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/tentacruel.pic", 0, 1 ; sprite dimensions
 	dw TentacruelPicFront, TentacruelPicBack
 
-	db ACID, SUPERSONIC, WRAP, NO_MOVE ; level 1 learnset
+	db BUBBLEBEAM, SUPERSONIC, WRAP, CONSTRICT ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

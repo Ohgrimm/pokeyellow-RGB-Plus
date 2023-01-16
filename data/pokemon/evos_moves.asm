@@ -433,13 +433,13 @@ TentacoolEvosMoves:
 	db EV_LEVEL, 30, TENTACRUEL
 	db 0
 ; Learnset
-	db 7, SUPERSONIC
-	db 13, WRAP
-	db 18, POISON_STING
-	db 22, WATER_GUN
-	db 27, CONSTRICT
-	db 33, BARRIER
-	db 40, SCREECH
+	db 20, SUPERSONIC
+	db 24, CONSTRICT
+	db 28, BUBBLEBEAM
+	db 32, ACID_ARMOR
+	db 36, SURF
+	db 40, BARRIER
+	db 44, SCREECH
 	db 48, HYDRO_PUMP
 	db 0
 
@@ -500,14 +500,12 @@ TangelaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 24, BIND
-	db 27, ABSORB
-	db 29, VINE_WHIP
-	db 32, POISONPOWDER
-	db 36, STUN_SPORE
-	db 39, SLEEP_POWDER
+	db 25, GROWTH
+	db 30, VINE_WHIP
+	db 35, MEGA_DRAIN
+	db 40, POISONPOWDER
+	db 42, SLEEP_POWDER
 	db 45, SLAM
-	db 48, GROWTH
 	db 0 
 
 GrowlitheEvosMoves:
@@ -806,11 +804,12 @@ TaurosEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, STOMP
-	db 28, TAIL_WHIP
-	db 35, LEER
-	db 44, RAGE
-	db 51, TAKE_DOWN
+	db 25, HORN_ATTACK
+	db 30, TAKE_DOWN
+	db 35, RAGE
+	db 40, DOUBLE_KICK
+	db 45, THRASH
+	db 50, DOUBLE_EDGE
 	db 0
 
 FarfetchdEvosMoves:
@@ -830,14 +829,12 @@ VenonatEvosMoves:
 	db EV_LEVEL, 31, VENOMOTH
 	db 0
 ; Learnset
-	db 11, SUPERSONIC
-	db 19, CONFUSION
 	db 22, POISONPOWDER
-	db 27, LEECH_LIFE
-	db 30, STUN_SPORE
-	db 35, PSYBEAM
-	db 38, SLEEP_POWDER
-	db 43, PSYCHIC_M
+	db 24, STUN_SPORE
+	db 30, PSYBEAM
+	db 35, SLEEP_POWDER
+	db 40, PSYCHIC_M
+	db 45, LEECH_LIFE
 	db 0
 
 DragoniteEvosMoves:
@@ -1333,12 +1330,10 @@ VenomothEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 22, POISONPOWDER
-	db 27, LEECH_LIFE
-	db 30, STUN_SPORE
-	db 38, PSYBEAM
-	db 43, SLEEP_POWDER
-	db 50, PSYCHIC_M
+	db 31, GUST
+	db 36, SLEEP_POWDER
+	db 45, PSYCHIC_M
+	db 50, LEECH_LIFE
 	db 0
 
 DewgongEvosMoves:
@@ -1596,14 +1591,11 @@ TentacruelEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, SUPERSONIC
-	db 13, WRAP
-	db 18, POISON_STING
-	db 22, WATER_GUN
-	db 27, CONSTRICT
-	db 35, BARRIER
-	db 43, SCREECH
-	db 50, HYDRO_PUMP
+	db 36, ACID_ARMOR
+	db 40, SURF
+	db 44, BARRIER
+	db 48, SCREECH
+	db 52, HYDRO_PUMP
 	db 0
 
 GoldeenEvosMoves:

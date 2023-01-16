@@ -1,6 +1,6 @@
 	db DEX_TANGELA ; pokedex id
 
-	db  65,  55, 115,  60, 100
+	db  65,  55, 115,  60, 105
 	;   hp  atk  def  spd  spc
 
 	db GRASS, GRASS ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/tangela.pic", 0, 1 ; sprite dimensions
 	dw TangelaPicFront, TangelaPicBack
 
-	db CONSTRICT, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db CONSTRICT, BIND, ABSORB, STUN_SPORE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
