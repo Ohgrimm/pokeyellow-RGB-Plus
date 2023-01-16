@@ -176,11 +176,13 @@ KangaskhanEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 26, BITE
-	db 31, TAIL_WHIP
-	db 36, MEGA_PUNCH
-	db 41, LEER
-	db 46, DIZZY_PUNCH
+	db 30, LEER
+	db 35, STOMP
+	db 39, HEADBUTT
+	db 42, FOCUS_ENERGY
+	db 45, DIZZY_PUNCH
+	db 47, COMET_PUNCH
+	db 50, MEGA_PUNCH
 	db 0
 
 NidoranMEvosMoves:
@@ -757,11 +759,11 @@ KoffingEvosMoves:
 	db EV_LEVEL, 35, WEEZING
 	db 0
 ; Learnset
-	db 32, SLUDGE
-	db 37, SMOKESCREEN
-	db 40, SELFDESTRUCT
-	db 45, HAZE
-	db 48, EXPLOSION
+	db 20, SLUDGE
+	db 24, HAZE
+	db 28, SELFDESTRUCT
+	db 36, TOXIC
+	db 44, EXPLOSION
 	db 0
 
 MankeyEvosMoves:
@@ -938,11 +940,14 @@ KrabbyEvosMoves:
 	db EV_LEVEL, 28, KINGLER
 	db 0
 ; Learnset
-	db 20, VICEGRIP
-	db 25, GUILLOTINE
-	db 30, STOMP
-	db 35, CRABHAMMER
-	db 40, HARDEN
+	db 20, WATER_GUN
+	db 24, VICEGRIP
+	db 28, BUBBLEBEAM
+	db 32, STOMP
+	db 36, SLAM
+	db 40, SWORDS_DANCE
+	db 44, CRABHAMMER
+	db 48, GUILLOTINE
 	db 0
 
 VulpixEvosMoves:
@@ -1095,19 +1100,19 @@ JigglypuffEvosMoves:
 	db EV_ITEM, MOON_STONE, 1, WIGGLYTUFF
 	db 0
 ; Learnset
-	db 9, POUND
-	db 14, DISABLE
-	db 19, DEFENSE_CURL
-	db 24, DOUBLESLAP
-	db 29, REST
-	db 34, BODY_SLAM
-	db 39, DOUBLE_EDGE
+	db 15, DOUBLESLAP
+	db 20, REST
+	db 25, BODY_SLAM
+	db 35, MIMIC
+	db 45, DOUBLE_EDGE
 	db 0
 
 WigglytuffEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 40, MIMIC
+	db 50, DOUBLE_EDGE
 	db 0
 
 EeveeEvosMoves:
@@ -1432,11 +1437,11 @@ KinglerEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, VICEGRIP
-	db 25, GUILLOTINE
 	db 34, STOMP
-	db 42, CRABHAMMER
-	db 49, HARDEN
+	db 38, SLAM
+	db 42, SWORDS_DANCE
+	db 46, CRABHAMMER
+	db 50, GUILLOTINE
 	db 0
 
 CloysterEvosMoves:
@@ -1466,11 +1471,8 @@ WeezingEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 32, SLUDGE
-	db 39, SMOKESCREEN
-	db 43, SELFDESTRUCT
-	db 49, HAZE
-	db 53, EXPLOSION
+	db 40, TOXIC
+	db 50, EXPLOSION
 	db 0
 
 PersianEvosMoves:
