@@ -19,7 +19,7 @@ SeafoamIslandsB4FWildMons:
 	db 30, STARYU
 	db 35, TENTACOOL
 	db 30, STARYU
-	db 40, JYNX
+	db 25, LAPRAS
 	db 20, LAPRAS
 	db 5, SQUIRTLE
 	db 5, SQUIRTLE
