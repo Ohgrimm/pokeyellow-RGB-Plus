@@ -283,11 +283,12 @@ LickitungEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, STOMP
-	db 15, DISABLE
-	db 23, DEFENSE_CURL
-	db 31, SLAM
-	db 39, SCREECH
+	db 30, STOMP
+	db 35, DISABLE
+	db 40, REST
+	db 45, SLAM
+	db 50, SCREECH
+	db 55, DOUBLE_EDGE
 	db 0
 
 ExeggcuteEvosMoves:
@@ -619,11 +620,9 @@ MachokeEvosMoves:
 	db EV_ITEM, LINKING_CORD, 1, MACHAMP
 	db 0
 ; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 36, FOCUS_ENERGY
-	db 44, SEISMIC_TOSS
-	db 52, SUBMISSION
+	db 35, SEISMIC_TOSS
+	db 40, SUBMISSION
+	db 45, DOUBLE_EDGE
 	db 0
 
 MrMimeEvosMoves:
@@ -721,12 +720,13 @@ MagmarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 36, LEER
-	db 39, CONFUSE_RAY
-	db 43, FIRE_PUNCH
-	db 48, SMOKESCREEN
-	db 52, SMOG
-	db 55, FLAMETHROWER
+	db 30, CONFUSE_RAY
+	db 35, FIRE_SPIN
+	db 40, FIRE_PUNCH
+	db 45, LOW_KICK
+	db 50, FLAMETHROWER
+	db 55, FIRE_BLAST
+	db 60, HYPER_BEAM
 	db 0
 
 ElectabuzzEvosMoves:
@@ -746,12 +746,10 @@ MagnetonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, SONICBOOM
-	db 25, THUNDERSHOCK
-	db 29, SUPERSONIC
-	db 38, THUNDER_WAVE
-	db 46, SWIFT
-	db 54, SCREECH
+	db 30, TRI_ATTACK
+	db 36, SWIFT
+	db 42, SCREECH
+	db 50, LIGHT_SCREEN
 	db 0
 
 KoffingEvosMoves:
@@ -771,13 +769,13 @@ MankeyEvosMoves:
 	db EV_LEVEL, 28, PRIMEAPE
 	db 0
 ; Learnset
-	db 9, LOW_KICK
-	db 15, KARATE_CHOP
-	db 21, FURY_SWIPES
-	db 27, FOCUS_ENERGY
-	db 33, SEISMIC_TOSS
-	db 39, THRASH
-	db 45, SCREECH
+	db 5, FURY_SWIPES
+	db 8, LOW_KICK
+	db 12, SEISMIC_TOSS
+	db 20, RAGE
+	db 29, KARATE_CHOP
+	db 32, THRASH
+	db 36, SCREECH
 	db 0
 
 SeelEvosMoves:
@@ -928,11 +926,12 @@ MeowthEvosMoves:
 	db EV_LEVEL, 28, PERSIAN
 	db 0
 ; Learnset
-	db 12, BITE
-	db 17, PAY_DAY
-	db 24, SCREECH
-	db 33, FURY_SWIPES
-	db 44, SLASH
+	db 10, BITE
+	db 15, PAY_DAY
+	db 20, SCREECH
+	db 25, FURY_SWIPES
+	db 30, THRASH
+	db 35, SLASH
 	db 0
 
 KrabbyEvosMoves:
@@ -1179,11 +1178,12 @@ MachopEvosMoves:
 	db EV_LEVEL, 28, MACHOKE
 	db 0
 ; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 32, FOCUS_ENERGY
-	db 39, SEISMIC_TOSS
-	db 46, SUBMISSION
+	db 5, FOCUS_ENERGY
+	db 20, KARATE_CHOP
+	db 25, STRENGTH
+	db 30, SEISMIC_TOSS
+	db 35, SUBMISSION
+	db 40, DOUBLE_EDGE
 	db 0
 
 ZubatEvosMoves:
@@ -1288,14 +1288,9 @@ PrimeapeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 9, LOW_KICK
-	db 15, KARATE_CHOP
-	db 21, FURY_SWIPES
-	db 27, FOCUS_ENERGY
-	db 28, RAGE
-	db 37, SEISMIC_TOSS
-	db 46, THRASH
-	db 45, SCREECH
+	db 29, KARATE_CHOP
+	db 32, THRASH
+	db 36, SCREECH
 	db 0
 
 DugtrioEvosMoves:
@@ -1362,11 +1357,9 @@ MachampEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 36, FOCUS_ENERGY
-	db 44, SEISMIC_TOSS
-	db 52, SUBMISSION
+	db 45, SEISMIC_TOSS
+	db 50, SUBMISSION
+	db 55, DOUBLE_EDGE
 	db 0
 
 GolduckEvosMoves:
@@ -1479,11 +1472,8 @@ PersianEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, BITE
-	db 17, PAY_DAY
-	db 24, SCREECH
-	db 37, FURY_SWIPES
-	db 51, SLASH
+	db 30, THRASH
+	db 35, SLASH
 	db 0
 
 MarowakEvosMoves:
@@ -1726,12 +1716,12 @@ MagnemiteEvosMoves:
 	db EV_LEVEL, 30, MAGNETON
 	db 0
 ; Learnset
-	db 21, SONICBOOM
-	db 25, THUNDERSHOCK
-	db 29, SUPERSONIC
-	db 35, THUNDER_WAVE
-	db 41, SWIFT
-	db 47, SCREECH
+	db 15, SUPERSONIC
+	db 20, THUNDER_WAVE
+	db 25, SONICBOOM
+	db 35, SWIFT
+	db 40, SCREECH
+	db 45, LIGHT_SCREEN
 	db 0
 
 MissingNoAFEvosMoves:
