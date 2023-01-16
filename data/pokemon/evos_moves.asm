@@ -461,13 +461,11 @@ ScytherEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 17, LEER
-	db 20, FOCUS_ENERGY
-	db 24, DOUBLE_TEAM
-	db 29, SLASH
-	db 35, SWORDS_DANCE
-	db 42, AGILITY
-	db 50, WING_ATTACK
+	db 25, WING_ATTACK
+	db 30, SWORDS_DANCE
+	db 35, AGILITY
+	db 40, SLASH
+	db 45, RAZOR_WIND
 	db 0
 
 StaryuEvosMoves:
@@ -496,13 +494,12 @@ PinsirEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, BIND
 	db 25, SEISMIC_TOSS
-	db 30, GUILLOTINE
-	db 36, FOCUS_ENERGY
-	db 43, HARDEN
-	db 49, SLASH
-	db 54, SWORDS_DANCE
+	db 30, STRENGTH
+	db 35, SWORDS_DANCE
+	db 40, SUBMISSION
+	db 45, GUILLOTINE
+	db 50, SLASH
 	db 0
 
 TangelaEvosMoves:
@@ -989,21 +986,28 @@ PikachuEvosMoves:
 	db EV_ITEM, THUNDER_STONE, 1, RAICHU
 	db 0
 ; Learnset
-	db 6, TAIL_WHIP
-	db 8, THUNDER_WAVE
-	db 11, QUICK_ATTACK
+	db 10, QUICK_ATTACK
 	db 15, DOUBLE_TEAM
 	db 20, SLAM
-	db 26, THUNDERBOLT
-	db 33, AGILITY
-	db 41, THUNDER
-	db 50, LIGHT_SCREEN
+	db 25, THUNDERBOLT
+	db 25, AGILITY
+	db 35, LIGHT_SCREEN
+	db 40, CONFUSE_RAY
+	db 45, THUNDER
 	db 0
 
 RaichuEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 20, DOUBLE_TEAM
+	db 25, AGILITY
+	db 30, THUNDERBOLT
+	db 35, LIGHT_SCREEN
+	db 40, CONFUSE_RAY
+	db 45, THUNDER
+	db 50, THUNDERPUNCH
+	db 55, DOUBLE_KICK
 	db 0
 
 DratiniEvosMoves:

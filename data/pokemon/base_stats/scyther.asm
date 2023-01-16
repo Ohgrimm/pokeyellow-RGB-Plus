@@ -1,6 +1,6 @@
 	db DEX_SCYTHER ; pokedex id
 
-	db  70, 110,  80, 105,  55
+	db  70, 110,  80, 105,  85
 	;   hp  atk  def  spd  spc
 
 	db BUG, FLYING ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/scyther.pic", 0, 1 ; sprite dimensions
 	dw ScytherPicFront, ScytherPicBack
 
-	db QUICK_ATTACK, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db QUICK_ATTACK, LEER, DOUBLE_TEAM, FOCUS_ENERGY ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

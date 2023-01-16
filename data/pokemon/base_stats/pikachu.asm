@@ -1,6 +1,6 @@
 	db DEX_PIKACHU ; pokedex id
 
-	db  45,  75,  45,  120,  75
+	db  45,  80,  50,  120,  80
 	;   hp  atk  def  spd  spc
 
 	db ELECTRIC, ELECTRIC ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/pikachu.pic", 0, 1 ; sprite dimensions
 	dw PikachuPicFront, PikachuPicBack
 
-	db THUNDERSHOCK, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
+	db THUNDERSHOCK, GROWL, TAIL_WHIP, THUNDER_WAVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
