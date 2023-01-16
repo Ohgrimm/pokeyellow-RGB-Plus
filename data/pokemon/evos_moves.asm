@@ -190,12 +190,12 @@ NidoranMEvosMoves:
 	db EV_LEVEL, 16, NIDORINO
 	db 0
 ; Learnset
-	db 8, HORN_ATTACK
-	db 12, DOUBLE_KICK
-	db 17, POISON_STING
-	db 23, FOCUS_ENERGY
-	db 30, FURY_ATTACK
-	db 38, HORN_DRILL
+	db 5, PECK
+	db 10, FOCUS_ENERGY
+	db 15, FURY_ATTACK
+	db 25, DOUBLE_KICK
+	db 30, HORN_ATTACK
+	db 40, TOXIC
 	db 0
 
 ClefairyEvosMoves:
@@ -242,9 +242,12 @@ NidokingEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 8, HORN_ATTACK
-	db 12, DOUBLE_KICK
-	db 23, THRASH
+	db 35, DOUBLE_KICK
+	db 40, HORN_ATTACK
+	db 50, THRASH
+	db 55, TOXIC
+	db 60, HORN_DRILL
+	db 65, EARTHQUAKE
 	db 0
 
 SlowbroEvosMoves:
@@ -331,21 +334,23 @@ NidoranFEvosMoves:
 	db EV_LEVEL, 16, NIDORINA
 	db 0
 ; Learnset
-	db 8, SCRATCH
-	db 12, DOUBLE_KICK
-	db 17, POISON_STING
-	db 23, TAIL_WHIP
-	db 30, BITE
-	db 38, FURY_SWIPES
+	db 5, SCRATCH
+	db 8, TAIL_WHIP
+	db 13, FURY_SWIPES
+	db 20, DOUBLE_KICK
+	db 25, BITE
+	db 30, TOXIC
 	db 0
 
 NidoqueenEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 8, SCRATCH
-	db 12, DOUBLE_KICK
+	db 20, DOUBLE_KICK
+	db 25, BITE
+	db 30, TOXIC
 	db 23, BODY_SLAM
+	db 23, EARTHQUAKE
 	db 0
 
 CuboneEvosMoves:
@@ -629,11 +634,15 @@ MrMimeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, CONFUSION
-	db 23, LIGHT_SCREEN
-	db 31, DOUBLESLAP
-	db 39, MEDITATE
-	db 47, SUBSTITUTE
+	db 12, DOUBLESLAP
+	db 15, HYPNOSIS
+	db 18, CONFUSION
+	db 23, REFLECT
+	db 29, PSYBEAM
+	db 34, SUBSTITUTE
+	db 39, DOUBLE_KICK
+	db 45, MEDITATE
+	db 50, PSYCHIC_M
 	db 0
 
 HitmonleeEvosMoves:
@@ -1392,11 +1401,10 @@ MewtwoEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 63, BARRIER
-	db 66, PSYCHIC_M
-	db 70, RECOVER
-	db 75, MIST
-	db 81, AMNESIA
+	db 85, MIST
+	db 90, DISABLE
+	db 95, AMNESIA
+	db 99, REFLECT
 	db 0
 
 SnorlaxEvosMoves:
@@ -1655,11 +1663,9 @@ NidorinoEvosMoves:
 	db EV_ITEM, MOON_STONE, 1, NIDOKING
 	db 0
 ; Learnset
-	db 8, HORN_ATTACK
-	db 12, DOUBLE_KICK
-	db 19, POISON_STING
-	db 27, FOCUS_ENERGY
-	db 36, FURY_ATTACK
+	db 29, DOUBLE_KICK
+	db 36, HORN_ATTACK
+	db 40, TOXIC
 	db 46, HORN_DRILL
 	db 0
 

@@ -1,6 +1,6 @@
 	db DEX_NIDORINO ; pokedex id
 
-	db  61,  72,  57,  65,  55
+	db  65,  75,  60,  65,  70
 	;   hp  atk  def  spd  spc
 
 	db POISON, POISON ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/nidorino.pic", 0, 1 ; sprite dimensions
 	dw NidorinoPicFront, NidorinoPicBack
 
-	db LEER, TACKLE, HORN_ATTACK, NO_MOVE ; level 1 learnset
+	db FURY_ATTACK, POISON_STING, FOCUS_ENERGY, PECK ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
