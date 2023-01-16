@@ -212,11 +212,14 @@ SpearowEvosMoves:
 	db EV_LEVEL, 20, FEAROW
 	db 0
 ; Learnset
-	db 9, LEER
-	db 15, FURY_ATTACK
-	db 22, MIRROR_MOVE
-	db 29, DRILL_PECK
-	db 36, AGILITY
+	db 5, LEER
+	db 10, FURY_ATTACK
+	db 15, FOCUS_ENERGY
+	db 20, WING_ATTACK
+	db 25, TAKE_DOWN
+	db 30, MIRROR_MOVE
+	db 35, AGILITY
+	db 40, DRILL_PECK
 	db 0
 
 VoltorbEvosMoves:
@@ -536,11 +539,11 @@ FearowEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 9, LEER
-	db 15, FURY_ATTACK
-	db 25, MIRROR_MOVE
-	db 34, DRILL_PECK
-	db 43, AGILITY
+	db 20, WING_ATTACK
+	db 26, TAKE_DOWN
+	db 32, MIRROR_MOVE
+	db 36, AGILITY
+	db 46, DRILL_PECK
 	db 0
 
 PidgeyEvosMoves:
@@ -806,11 +809,12 @@ FarfetchdEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, LEER
-	db 15, FURY_ATTACK
-	db 23, SWORDS_DANCE
-	db 31, AGILITY
-	db 39, SLASH
+	db 25, CUT
+	db 30, LOW_KICK
+	db 35, AGILITY
+	db 35, SWORDS_DANCE
+	db 40, SLASH
+	db 45, RAZOR_WIND
 	db 0
 
 VenonatEvosMoves:
@@ -1821,12 +1825,14 @@ OddishEvosMoves:
 	db EV_LEVEL, 21, GLOOM
 	db 0
 ; Learnset
-	db 15, POISONPOWDER
-	db 17, STUN_SPORE
-	db 19, SLEEP_POWDER
-	db 24, ACID
-	db 33, PETAL_DANCE
-	db 46, SOLARBEAM
+	db 12, POISONPOWDER
+	db 14, STUN_SPORE
+	db 16, SLEEP_POWDER
+	db 20, ACID
+	db 25, MEGA_DRAIN
+	db 30, TOXIC
+	db 45, SOLARBEAM
+	db 50, PETAL_DANCE
 	db 0
 
 GloomEvosMoves:
@@ -1834,21 +1840,18 @@ GloomEvosMoves:
 	db EV_ITEM, LEAF_STONE, 1, VILEPLUME
 	db 0
 ; Learnset
-	db 15, POISONPOWDER
-	db 17, STUN_SPORE
-	db 19, SLEEP_POWDER
-	db 28, ACID
-	db 38, PETAL_DANCE
-	db 52, SOLARBEAM
+	db 28, MEGA_DRAIN
+	db 33, TOXIC
+	db 50, SOLARBEAM
+	db 55, PETAL_DANCE
 	db 0
 
 VileplumeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, POISONPOWDER
-	db 17, STUN_SPORE
-	db 19, SLEEP_POWDER
+	db 55, SOLARBEAM
+	db 60, PETAL_DANCE
 	db 0
 
 BellsproutEvosMoves:
@@ -1862,8 +1865,8 @@ BellsproutEvosMoves:
 	db 13, SLEEP_POWDER
 	db 15, STUN_SPORE
 	db 23, ACID
+	db 28, SLAM
 	db 35, RAZOR_LEAF
-	db 41, SLAM
 	db 0
 
 WeepinbellEvosMoves:
@@ -1872,8 +1875,8 @@ WeepinbellEvosMoves:
 	db 0
 ; Learnset
 	db 29, ACID
+	db 34, SLAM
 	db 39, RAZOR_LEAF
-	db 49, SLAM
 	db 0
 
 VictreebelEvosMoves:
@@ -1881,5 +1884,4 @@ VictreebelEvosMoves:
 	db 0
 ; Learnset
 	db 49, RAZOR_LEAF
-	db 59, SLAM
 	db 0
