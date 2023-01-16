@@ -1,6 +1,6 @@
 	db DEX_SANDSHREW ; pokedex id
 
-	db  50,  75,  85,  40,  30
+	db  50,  75,  90,  40,  35
 	;   hp  atk  def  spd  spc
 
 	db GROUND, GROUND ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/sandshrew.pic", 0, 1 ; sprite dimensions
 	dw SandshrewPicFront, SandshrewPicBack
 
-	db SCRATCH, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db SCRATCH, DEFENSE_CURL, POISON_STING, SAND_ATTACK ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

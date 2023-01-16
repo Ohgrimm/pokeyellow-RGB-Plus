@@ -1,6 +1,6 @@
 	db DEX_STARMIE ; pokedex id
 
-	db  60,  75,  85, 115, 100
+	db  60,  75,  85, 115, 120
 	;   hp  atk  def  spd  spc
 
 	db WATER, PSYCHIC_TYPE ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/starmie.pic", 0, 1 ; sprite dimensions
 	dw StarmiePicFront, StarmiePicBack
 
-	db TACKLE, WATER_GUN, HARDEN, NO_MOVE ; level 1 learnset
+	db SURF, RECOVER, PSYBEAM, HARDEN ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

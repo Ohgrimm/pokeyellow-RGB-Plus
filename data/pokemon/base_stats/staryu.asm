@@ -1,6 +1,6 @@
 	db DEX_STARYU ; pokedex id
 
-	db  30,  45,  55,  85,  70
+	db  30,  45,  55,  85,  80
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/staryu.pic", 0, 1 ; sprite dimensions
 	dw StaryuPicFront, StaryuPicBack
 
-	db TACKLE, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db SWIFT, HARDEN, WATER_GUN, CONFUSE_RAY ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

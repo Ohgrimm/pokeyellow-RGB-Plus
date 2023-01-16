@@ -164,12 +164,10 @@ RhydonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, STOMP
-	db 35, TAIL_WHIP
-	db 40, FURY_ATTACK
-	db 48, HORN_DRILL
-	db 55, LEER
-	db 64, TAKE_DOWN
+	db 50, ROCK_SLIDE
+	db 55, EARTHQUAKE
+	db 65, HORN_DRILL
+	db 75, DOUBLE_EDGE
 	db 0
 
 KangaskhanEvosMoves:
@@ -254,12 +252,8 @@ SlowbroEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 18, DISABLE
-	db 22, HEADBUTT
-	db 27, GROWL
-	db 33, WATER_GUN
-	db 37, WITHDRAW
-	db 44, AMNESIA
+	db 45, SURF
+	db 50, REST
 	db 55, PSYCHIC_M
 	db 0
 
@@ -372,12 +366,12 @@ RhyhornEvosMoves:
 	db EV_LEVEL, 42, RHYDON
 	db 0
 ; Learnset
-	db 30, STOMP
-	db 35, TAIL_WHIP
-	db 40, FURY_ATTACK
-	db 45, HORN_DRILL
-	db 50, LEER
-	db 55, TAKE_DOWN
+	db 25, LEER
+	db 30, FURY_ATTACK
+	db 45, ROCK_SLIDE
+	db 55, EARTHQUAKE
+	db 60, HORN_DRILL
+	db 65, DOUBLE_EDGE
 	db 0
 
 LaprasEvosMoves:
@@ -473,13 +467,13 @@ StaryuEvosMoves:
 	db EV_ITEM, WATER_STONE, 1, STARMIE
 	db 0
 ; Learnset
-	db 17, WATER_GUN
-	db 22, HARDEN
-	db 27, RECOVER
-	db 32, SWIFT
-	db 37, MINIMIZE
-	db 42, LIGHT_SCREEN
-	db 47, HYDRO_PUMP
+	db 25, MINIMIZE
+	db 30, PSYBEAM
+	db 35, LIGHT_SCREEN
+	db 40, PSYCHIC_M
+	db 45, SURF
+	db 50, RECOVER
+	db 55, HYDRO_PUMP
 	db 0
 
 BlastoiseEvosMoves:
@@ -572,12 +566,13 @@ SlowpokeEvosMoves:
 	db EV_LEVEL, 37, SLOWBRO
 	db 0
 ; Learnset
-	db 18, DISABLE
-	db 22, HEADBUTT
-	db 27, GROWL
-	db 33, WATER_GUN
-	db 40, AMNESIA
-	db 48, PSYCHIC_M
+	db 20, ACID
+	db 25, DISABLE
+	db 30, HEADBUTT
+	db 35, AMNESIA
+	db 40, SURF
+	db 45, REST
+	db 50, PSYCHIC_M
 	db 0
 
 KadabraEvosMoves:
@@ -870,12 +865,13 @@ PoliwagEvosMoves:
 	db EV_LEVEL, 25, POLIWHIRL
 	db 0
 ; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
-	db 25, DOUBLESLAP
-	db 31, BODY_SLAM
-	db 38, AMNESIA
-	db 45, HYDRO_PUMP
+	db 10, POUND
+	db 15, DOUBLESLAP
+	db 20, BUBBLEBEAM
+	db 25, BODY_SLAM
+	db 30, AMNESIA
+	db 35, HYDRO_PUMP
+	db 40, DOUBLE_EDGE
 	db 0
 
 JynxEvosMoves:
@@ -1077,22 +1073,26 @@ SandshrewEvosMoves:
 	db EV_LEVEL, 22, SANDSLASH
 	db 0
 ; Learnset
-	db 10, SAND_ATTACK
-	db 17, SLASH
-	db 24, POISON_STING
-	db 31, SWIFT
-	db 38, FURY_SWIPES
+	db 15, SWIFT
+	db 20, FURY_SWIPES
+	db 25, AGILITY
+	db 30, SLASH
+	db 35, DIG
+	db 40, SWORDS_DANCE
+	db 45, EARTHQUAKE
+	db 50, MIST
 	db 0
 
 SandslashEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, SAND_ATTACK
-	db 17, SLASH
-	db 27, POISON_STING
-	db 36, SWIFT
-	db 47, FURY_SWIPES
+	db 30, AGILITY
+	db 35, SLASH
+	db 40, DIG
+	db 45, SWORDS_DANCE
+	db 50, EARTHQUAKE
+	db 55, MIST
 	db 0
 
 OmanyteEvosMoves:
@@ -1254,20 +1254,21 @@ PoliwhirlEvosMoves:
 	db EV_ITEM, WATER_STONE, 1, POLIWRATH
 	db 0
 ; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
-	db 26, DOUBLESLAP
-	db 33, BODY_SLAM
-	db 41, AMNESIA
-	db 49, HYDRO_PUMP
+	db 35, AMNESIA
+	db 40, HYDRO_PUMP
+	db 45, DOUBLE_EDGE
 	db 0
 
 PoliwrathEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
+	db 35, AMNESIA
+	db 40, HYDRO_PUMP
+	db 45, DOUBLE_EDGE
+	db 40, KARATE_CHOP
+	db 45, LOW_KICK
+	db 45, SUBMISSION
 	db 0
 
 WeedleEvosMoves:
@@ -1428,9 +1429,8 @@ SnorlaxEvosMoves:
 	db 0
 ; Learnset
 	db 35, BODY_SLAM
-	db 41, HARDEN
-	db 48, DOUBLE_EDGE
-	db 56, HYPER_BEAM
+	db 45, DOUBLE_EDGE
+	db 55, HYPER_BEAM
 	db 0
 
 MagikarpEvosMoves:
@@ -1560,6 +1560,13 @@ StarmieEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 30, MINIMIZE
+	db 35, PSYBEAM
+	db 40, LIGHT_SCREEN
+	db 45, PSYCHIC_M
+	db 50, SURF
+	db 55, RECOVER
+	db 60, HYDRO_PUMP
 	db 0
 
 BulbasaurEvosMoves:
@@ -1627,24 +1634,27 @@ PonytaEvosMoves:
 	db EV_LEVEL, 40, RAPIDASH
 	db 0
 ; Learnset
-	db 30, TAIL_WHIP
-	db 32, STOMP
-	db 35, GROWL
-	db 39, FIRE_SPIN
-	db 43, TAKE_DOWN
-	db 48, AGILITY
+	db 30, STOMP
+	db 35, CONFUSION
+	db 40, FIRE_SPIN
+	db 45, AGILITY
+	db 50, HYPNOSIS
+	db 55, PSYBEAM
+	db 60, TAKE_DOWN
+	db 65, FIRE_BLAST
+	db 70, PSYCHIC_M
 	db 0
 
 RapidashEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, TAIL_WHIP
-	db 32, STOMP
-	db 35, GROWL
-	db 39, FIRE_SPIN
-	db 47, TAKE_DOWN
-	db 55, AGILITY
+	db 45, AGILITY
+	db 50, HYPNOSIS
+	db 55, PSYBEAM
+	db 60, TAKE_DOWN
+	db 65, FIRE_BLAST
+	db 70, PSYCHIC_M
 	db 0
 
 RattataEvosMoves:
@@ -1652,20 +1662,21 @@ RattataEvosMoves:
 	db EV_LEVEL, 20, RATICATE
 	db 0
 ; Learnset
-	db 7, QUICK_ATTACK
-	db 14, HYPER_FANG
-	db 23, FOCUS_ENERGY
-	db 34, SUPER_FANG
+	db 4, QUICK_ATTACK
+	db 7, FOCUS_ENERGY
+	db 10, BITE
+	db 14, TAKE_DOWN
+	db 18, HYPER_FANG
+	db 30, SUPER_FANG
+	db 35, DOUBLE_EDGE
 	db 0
 
 RaticateEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, QUICK_ATTACK
-	db 14, HYPER_FANG
-	db 27, FOCUS_ENERGY
-	db 41, SUPER_FANG
+	db 35, SUPER_FANG
+	db 40, DOUBLE_EDGE
 	db 0
 
 NidorinoEvosMoves:

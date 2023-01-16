@@ -1,6 +1,6 @@
 	db DEX_RATICATE ; pokedex id
 
-	db  55,  81,  60,  97,  50
+	db  75,  85,  70, 100,  80
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, NORMAL ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/raticate.pic", 0, 1 ; sprite dimensions
 	dw RaticatePicFront, RaticatePicBack
 
-	db TACKLE, TAIL_WHIP, QUICK_ATTACK, NO_MOVE ; level 1 learnset
+	db QUICK_ATTACK, BITE, HYPER_FANG, FOCUS_ENERGY ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
