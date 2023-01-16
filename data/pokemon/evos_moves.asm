@@ -874,12 +874,12 @@ JynxEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 39, BODY_SLAM
-	db 47, THRASH
-	db 31, ICE_PUNCH
-	db 31, PSYCHIC_M
-	db 31, LOVELY_KISS
-	db 58, BLIZZARD
+	db 25, BODY_SLAM
+	db 30, THRASH
+	db 35, ICE_PUNCH
+	db 40, PSYCHIC_M
+	db 45, LOVELY_KISS
+	db 50, BLIZZARD
 	db 0
 
 MoltresEvosMoves:
@@ -1014,20 +1014,16 @@ KabutoEvosMoves:
 	db EV_LEVEL, 40, KABUTOPS
 	db 0
 ; Learnset
-	db 34, ABSORB
-	db 39, SLASH
-	db 44, LEER
-	db 49, HYDRO_PUMP
+	db 31, LEER
+	db 35, MEGA_DRAIN
+	db 39, WATERFALL
 	db 0
 
 KabutopsEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 34, ABSORB
-	db 39, SLASH
-	db 46, LEER
-	db 53, HYDRO_PUMP
+	db 50, SLASH
 	db 0
 
 HorseaEvosMoves:
@@ -1035,22 +1031,19 @@ HorseaEvosMoves:
 	db EV_LEVEL, 32, SEADRA
 	db 0
 ; Learnset
-	db 19, SMOKESCREEN
-	db 24, LEER
-	db 30, WATER_GUN
-	db 37, AGILITY
-	db 45, HYDRO_PUMP
+	db 20, WATER_GUN
+	db 30, AGILITY
+	db 40, DRAGONBREATH
+	db 50, HYDRO_PUMP
 	db 0
 
 SeadraEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 19, SMOKESCREEN
-	db 24, LEER
-	db 30, WATER_GUN
-	db 41, AGILITY
-	db 52, HYDRO_PUMP
+	db 45, DRAGONBREATH
+	db 50, AGILITY
+	db 55, HYDRO_PUMP
 	db 0
 
 SandshrewEvosMoves:
