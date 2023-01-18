@@ -505,18 +505,18 @@ GameCornerHiddenObjects:
 	hidden_object  1, 13, ANY_FACING, StartSlotMachine
 	hidden_object  1, 14, ANY_FACING, StartSlotMachine
 	hidden_object  1, 15, ANY_FACING, StartSlotMachine
-	hidden_object  0,  8, COIN+800, HiddenCoins
-	hidden_object  1, 16, COIN+100, HiddenCoins
-	hidden_object  3, 11, COIN+200, HiddenCoins
-	hidden_object  3, 14, COIN+700, HiddenCoins
-	hidden_object  4, 12, COIN+300, HiddenCoins
-	hidden_object  9, 12, COIN+200, HiddenCoins
-	hidden_object  9, 15, COIN+1000, HiddenCoins
-	hidden_object 16, 14, COIN+600, HiddenCoins
-	hidden_object 10, 16, COIN+500, HiddenCoins
-	hidden_object 11,  7, COIN+400, HiddenCoins
-	hidden_object 15,  8, COIN+900, HiddenCoins
-	hidden_object 12, 15, COIN+800, HiddenCoins
+	hidden_object  0,  8, COIN+99, HiddenCoins
+	hidden_object  1, 16, COIN+99, HiddenCoins
+	hidden_object  3, 11, COIN+99, HiddenCoins
+	hidden_object  3, 14, COIN+99, HiddenCoins
+	hidden_object  4, 12, COIN+99, HiddenCoins
+	hidden_object  9, 12, COIN+99, HiddenCoins
+	hidden_object  9, 15, COIN+99, HiddenCoins
+	hidden_object 16, 14, COIN+99, HiddenCoins
+	hidden_object 10, 16, COIN+99, HiddenCoins
+	hidden_object 11,  7, COIN+99, HiddenCoins
+	hidden_object 15,  8, COIN+99, HiddenCoins
+	hidden_object 12, 15, COIN+99, HiddenCoins
 	db -1 ; end
 
 FuchsiaPokecenterHiddenObjects:
