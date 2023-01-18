@@ -9,7 +9,7 @@ Route17WildMons:
 	db 20, DODUO ; 5
 	db 30, DODUO ; 5
 	db 35, DODRIO ; 4
-	db 35, DODRIO ; 1
+	db 5, SCYTHER ; 1
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

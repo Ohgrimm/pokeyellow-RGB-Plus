@@ -8,8 +8,8 @@ Route16WildMons:
 	db 26, DODUO ; 10
 	db 23, SPEAROW ; 5
 	db 24, FEAROW ; 5
-	db 5, RATICATE ; 4
-	db 5, RATICATE ; 1
+	db 25, RATICATE ; 4
+	db 5, TAUROS ; 1
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

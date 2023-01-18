@@ -1,15 +1,15 @@
 SafariZoneEastWildMons:
 	def_grass_wildmons 30 ; encounter rate
-	db 21, NIDORAN_M
-	db 29, NIDORAN_F
-	db 22, EXEGGCUTE
-	db 21, TAUROS
-	db 32, NIDORINA
-	db 19, CUBONE
-	db 26, EXEGGCUTE
-	db 24, MAROWAK
-	db 21, CHANSEY
+	db 35, NIDORINO
+	db 35, NIDORINA
+	db 25, EXEGGCUTE
+	db 20, TAUROS
+	db 20, TANGELA
+	db 20, PSYDUCK
+	db 15, PINSIR
 	db 15, SCYTHER
+	db 10, CHANSEY
+	db 10, CHANSEY
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

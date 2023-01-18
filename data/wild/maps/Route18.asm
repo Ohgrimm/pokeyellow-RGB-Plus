@@ -6,10 +6,10 @@ Route18WildMons:
 	db 30, DODUO ; 10
 	db 30, RATICATE ; 10
 	db 30, DODUO ; 10
-	db 25, PINSIR ; 5
-	db 25, SCYTHER ; 5
+	db 25, DODUO ; 5
+	db 25, DODUO ; 5
 	db 40, DODRIO ; 4
-	db 40, DODRIO ; 1
+	db 5, PINSIR ; 1
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

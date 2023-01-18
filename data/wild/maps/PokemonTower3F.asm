@@ -6,8 +6,8 @@ PokemonTower3FWildMons:
 	db 20, GASTLY ; 10
 	db 20, GASTLY ; 10
 	db 20, GASTLY ; 10
-	db 15, CUBONE ; 5
-	db 15, CUBONE ; 5
+	db 25, HAUNTER ; 5
+	db 25, HAUNTER ; 5
 	db 25, HAUNTER ; 4
 	db 25, HAUNTER ; 1
 	end_grass_wildmons

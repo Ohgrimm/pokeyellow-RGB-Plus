@@ -6,10 +6,10 @@ PokemonTower6FWildMons:
 	db 30, HAUNTER ; 10
 	db 30, HAUNTER ; 10
 	db 30, HAUNTER ; 10
+	db 30, HAUNTER ; 5
 	db 20, CUBONE ; 5
-	db 20, CUBONE ; 5
-	db 30, HAUNTER ; 4
-	db 30, HAUNTER ; 1
+	db 35, HAUNTER ; 4
+	db 35, HAUNTER ; 1
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
