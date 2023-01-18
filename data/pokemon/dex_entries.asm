@@ -1259,4 +1259,9 @@ MissingNoDexEntry:
 	db 10 ; 1.0 m
 	dw 100 ; 10.0 kg
 	db "コメント　さくせいちゅう@" ; コメント作成中 (Comment to be written)
+<<<<<<< HEAD
 	
+=======
+	
+
+>>>>>>> a77c55ff51b9d8c1bd838b087c865b71342f1f50
