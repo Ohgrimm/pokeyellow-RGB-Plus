@@ -1,6 +1,6 @@
 	db DEX_DROWZEE ; pokedex id
 
-	db  60,  50,  45,  45,  90
+	db  60,  50,  45,  45,  75
 	;   hp  atk  def  spd  spc
 
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type

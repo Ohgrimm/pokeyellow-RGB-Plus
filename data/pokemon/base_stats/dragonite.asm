@@ -1,6 +1,6 @@
 	db DEX_DRAGONITE ; pokedex id
 
-	db  95, 135,  95,  80, 125
+	db  95, 135,  95,  80, 100
 	;   hp  atk  def  spd  spc
 
 	db DRAGON, FLYING ; type

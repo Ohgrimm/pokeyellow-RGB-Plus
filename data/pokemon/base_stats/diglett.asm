@@ -1,6 +1,6 @@
 	db DEX_DIGLETT ; pokedex id
 
-	db  10,  55,  30,  95,  55
+	db  10,  55,  30,  95,  45
 	;   hp  atk  def  spd  spc
 
 	db GROUND, GROUND ; type

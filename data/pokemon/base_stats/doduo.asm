@@ -1,6 +1,6 @@
 	db DEX_DODUO ; pokedex id
 
-	db  35,  85,  45,  75,  45
+	db  35,  85,  45,  75,  35
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, FLYING ; type

@@ -1,6 +1,6 @@
 	db DEX_DRATINI ; pokedex id
 
-	db  45,  65,  45,  50,  65
+	db  45,  65,  45,  50,  50
 	;   hp  atk  def  spd  spc
 
 	db DRAGON, DRAGON ; type

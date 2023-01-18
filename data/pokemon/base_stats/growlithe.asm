@@ -1,6 +1,6 @@
 	db DEX_GROWLITHE ; pokedex id
 
-	db  60,  75,  45,  60,  75
+	db  60,  75,  45,  60,  60
 	;   hp  atk  def  spd  spc
 
 	db FIRE, FIRE ; type

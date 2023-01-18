@@ -1,6 +1,6 @@
 	db DEX_KANGASKHAN ; pokedex id
 
-	db 105,  95,  80,  90,  70
+	db 105,  95,  80,  90,  55
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, NORMAL ; type

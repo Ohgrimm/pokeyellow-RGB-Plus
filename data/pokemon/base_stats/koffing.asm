@@ -1,6 +1,6 @@
 	db DEX_KOFFING ; pokedex id
 
-	db  40,  65,  95,  35,  70
+	db  40,  65,  95,  35,  55
 	;   hp  atk  def  spd  spc
 
 	db POISON, POISON ; type

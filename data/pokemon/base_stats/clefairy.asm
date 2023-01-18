@@ -1,6 +1,6 @@
 	db DEX_CLEFAIRY ; pokedex id
 
-	db  70,  45,  50,  35,  80
+	db  70,  45,  50,  35,  65
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, NORMAL ; type
