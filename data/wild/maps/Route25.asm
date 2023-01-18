@@ -6,10 +6,10 @@ Route25WildMons:
 	db 14, ODDISH
 	db 14, BELLSPROUT
 	db 15, PIDGEY
-	db 13, VENONAT
-	db 16, VENONAT
+	db 10, VENONAT
+	db 15, ABRA
 	db 17, PIDGEY
-	db 17, PIDGEOTTO
+	db 18, PIDGEOTTO
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
