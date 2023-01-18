@@ -693,7 +693,7 @@ AICheckIfHPBelowFraction:
 
 AIUseXAttack:
 	ld b, $A
-	ld a, X_ATTACK
+	ld a, X_ACCURACY
 	jr AIIncreaseStat
 
 AIUseXDefend:

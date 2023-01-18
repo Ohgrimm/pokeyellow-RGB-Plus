@@ -3,7 +3,7 @@ VictoryRoad1FWildMons:
 	db 35, GRAVELER
 	db 30, GRAVELER
 	db 35, ONIX
-	db 40, GOOBAT
+	db 40, GOLBAT
 	db 35, GOLBAT
 	db 35, GRAVELER
 	db 40, ONIX

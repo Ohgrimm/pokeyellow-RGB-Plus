@@ -112,7 +112,7 @@ SpecialTrainerMoves:
 	db 0
 
 	db LANCE, 1
-	db 1, 1, DRAGON_RAGE
+	db 1, 1, DRAGONBREATH
 	db 2, 1, THUNDER_WAVE
 	db 2, 3, THUNDERBOLT
 	db 3, 1, BUBBLEBEAM

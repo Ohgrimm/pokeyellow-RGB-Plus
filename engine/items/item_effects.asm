@@ -1813,7 +1813,7 @@ ItemUseXStat:
 	push af ; save [wPlayerMoveEffect]
 	push hl
 	ld a, [wcf91]
-	sub X_ATTACK - ATTACK_UP1_EFFECT
+	sub X_ACCURACY - ACCURACY_UP1_EFFECT
 	ld [hl], a ; store player move effect
 	call PrintItemUseTextAndRemoveItem
 	ld a, XSTATITEM_ANIM ; X stat item animation ID

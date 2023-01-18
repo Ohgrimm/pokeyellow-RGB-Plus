@@ -5,7 +5,7 @@ Route12WildMons:
 	db 15, FARFETCHD ; 15
 	db 30, FARFETCHD ; 10
 	db 32, GLOOM ; 10
-	db 32, WEEPINBELLL ; 10
+	db 32, WEEPINBELL ; 10
 	db 25, PINSIR ; 5
 	db 25, SCYTHER ; 5
 	db 35, LICKITUNG ; 4

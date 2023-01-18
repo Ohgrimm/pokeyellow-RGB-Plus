@@ -4940,8 +4940,8 @@ ApplyAttackToEnemyPokemon:
 	ld b, SONICBOOM_DAMAGE ; 20
 	cp SONICBOOM
 	jr z, .storeDamage
-	ld b, DRAGON_RAGE_DAMAGE ; 40
-	cp DRAGON_RAGE
+	ld b, DRAGONBREATH ; 60
+	cp DRAGONBREATH
 	jr z, .storeDamage
 ; Psywave
 	ld a, [hl]
@@ -5059,8 +5059,8 @@ ApplyAttackToPlayerPokemon:
 	ld b, SONICBOOM_DAMAGE
 	cp SONICBOOM
 	jr z, .storeDamage
-	ld b, DRAGON_RAGE_DAMAGE
-	cp DRAGON_RAGE
+	ld b, DRAGONBREATH_DAMAGE
+	cp DRAGONBREATH
 	jr z, .storeDamage
 ; Psywave
 	ld a, [hl]

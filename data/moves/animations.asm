@@ -81,7 +81,7 @@ AttackAnimationPointers:
 	dw SleepPowderAnim
 	dw PetalDanceAnim
 	dw StringShotAnim
-	dw DragonRageAnim
+	dw DragonBreathAnim
 	dw FireSpinAnim
 	dw ThunderShockAnim
 	dw ThunderBoltAnim
@@ -661,8 +661,8 @@ StringShotAnim:
 	battle_anim STRING_SHOT, SUBANIM_0_STRING_SHOT, 0, 8
 	db -1 ; end
 
-DragonRageAnim:
-	battle_anim DRAGON_RAGE, SUBANIM_1_FLAME_BEAM, 1, 6
+DragonBreathAnim:
+	battle_anim DRAGONBREATH, SUBANIM_1_FLAME_BEAM, 1, 6
 	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_1, 1, 6
 	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_2, 1, 6
 	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_3, 1, 6
