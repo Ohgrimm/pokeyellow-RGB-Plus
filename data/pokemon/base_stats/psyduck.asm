@@ -1,6 +1,6 @@
 	db DEX_PSYDUCK ; pokedex id
 
-	db  50,  55,  50,  55,  70
+	db  50,  55,  50,  55,  55
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type

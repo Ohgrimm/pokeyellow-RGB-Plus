@@ -1,6 +1,6 @@
 	db DEX_PINSIR ; pokedex id
 
-	db  65, 125, 100,  85,  80
+	db  65, 125, 100,  85,  60
 	;   hp  atk  def  spd  spc
 
 	db BUG, BUG ; type

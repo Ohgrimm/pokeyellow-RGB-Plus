@@ -1,6 +1,6 @@
 	db DEX_RATICATE ; pokedex id
 
-	db  75,  85,  70, 100,  80
+	db  75,  85,  70, 100,  60
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, NORMAL ; type

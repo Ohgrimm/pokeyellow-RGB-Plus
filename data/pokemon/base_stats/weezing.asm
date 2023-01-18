@@ -1,6 +1,6 @@
 	db DEX_WEEZING ; pokedex id
 
-	db  65,  90, 120,  60,  100
+	db  65,  90, 120,  60,  80
 	;   hp  atk  def  spd  spc
 
 	db POISON, POISON ; type

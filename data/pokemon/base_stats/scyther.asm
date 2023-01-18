@@ -1,6 +1,6 @@
 	db DEX_SCYTHER ; pokedex id
 
-	db  70, 110,  80, 105,  85
+	db  70, 110,  80, 105,  65
 	;   hp  atk  def  spd  spc
 
 	db BUG, FLYING ; type

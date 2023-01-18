@@ -1,6 +1,6 @@
 	db DEX_SEEL ; pokedex id
 
-	db  65,  45,  55,  45,  75
+	db  65,  45,  55,  45,  65
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type

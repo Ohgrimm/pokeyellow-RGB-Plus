@@ -1,6 +1,6 @@
 	db DEX_WARTORTLE ; pokedex id
 
-	db  60,  65,  80,  60,  90
+	db  60,  65,  80,  60,  70
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type
