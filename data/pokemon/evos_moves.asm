@@ -535,6 +535,7 @@ TangelaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 20, LEECH_SEED
 	db 25, GROWTH
 	db 30, VINE_WHIP
 	db 35, MEGA_DRAIN
