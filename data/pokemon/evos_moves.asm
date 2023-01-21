@@ -1005,6 +1005,7 @@ ArticunoEvosMoves:
 	db 70, DREAM_EATER
 	db 72, BLIZZARD	
 	db 75, DOUBLE_TEAM
+	db 77, RAZOR_WIND
 	db 0
 
 ZapdosEvosMoves:
@@ -1016,6 +1017,7 @@ ZapdosEvosMoves:
 	db 65, THUNDER
 	db 67, DRILL_PECK
 	db 70, LOW_KICK
+	db 72, RAZOR_WIND
 	db 0
 
 DittoEvosMoves:
