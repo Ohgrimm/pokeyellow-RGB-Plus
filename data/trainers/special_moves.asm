@@ -7,8 +7,8 @@ SpecialTrainerMoves:
 	db BROCK, 1
 	db 1, 1, ROCK_THROW ; GEODUDE
 	db 1, 2, DEFENSE_CURL
-	db 1, 3, MOVE
-	db 1, 4, MOVE
+	db 1, 3, DIG
+	db 1, 4, DOUBLE_EDGE
 	db 2, 1, ROCK_THROW ; ONIX
 	db 2, 2, DIG
 	db 2, 3, DRAGONBREATH
