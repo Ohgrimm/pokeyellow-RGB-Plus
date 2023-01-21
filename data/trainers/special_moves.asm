@@ -174,10 +174,14 @@ SpecialTrainerMoves:
 	db 4, 2, ROCK_SLIDE
 	db 4, 3, HORN_DRILL
 	db 4, 4, DIG
-	db 5, 1, SLASH ; PERSIAN
-	db 5, 2, CUT
-	db 5, 3, AGILITY
-	db 5, 4, DOUBLE_TEAM
+	db 5, 1, ROCK_SLIDE ; GOLEM
+	db 5, 2, EARTHQUAKE
+	db 5, 3, EXPLOSION
+	db 5, 4, DIG
+	db 6, 1, SLASH ; PERSIAN
+	db 6, 2, CUT
+	db 6, 3, AGILITY
+	db 6, 4, DOUBLE_TEAM
 	db 0
 
 	db LORELEI, 1
