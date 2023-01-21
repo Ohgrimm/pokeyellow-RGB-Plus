@@ -119,7 +119,7 @@ LassData:
 	db 20, ABRA, PSYDUCK, 0
 ; Route 25
 	db 25, PIDGEY, ODDISH, BELLSPROUT, 0
-	db 25, NIDORAN_F, SANDSHREW 0
+	db 25, NIDORAN_F, SANDSHREW, 0
 ; SS Anne 1F Rooms
 	db 25, DIGLETT, NIDORAN_F, POLIWAG, 0
 ; SS Anne 2F Rooms
@@ -154,7 +154,7 @@ JrTrainerMData:
 ; Route 24/Route 25
 	db 25, GOLBAT, PARAS, 0
 ; Route 24
-	db 25, POLIWHIRL, BEEDRILL 0
+	db 25, POLIWHIRL, BEEDRILL, 0
 ; Route 6
 	db 25, POLIWHIRL, WEEPINBELL, 0
 	db 25, PIKACHU, PIDGEOTTO, 0
@@ -162,7 +162,7 @@ JrTrainerMData:
 	db 10, ZUBAT, 0
 ; Route 9
 	db 30, PIKACHU, POLIWHIRL, WEEPINBELL, 0
-	db 30, GOLBAT, POLIWHIRL, WEEPINBELL 0
+	db 30, GOLBAT, POLIWHIRL, WEEPINBELL, 0
 ; Route 12
 	db 40, POLIWRATH, VICTREEBEL, GOLBAT, 0
 	db 40, RAICHU, PIDGEOT, PARASECT, 0
@@ -291,7 +291,7 @@ BurglarData:
 	db 10, VULPIX, CHARMANDER, PONYTA, 0
 ; Cinnabar Gym
 	db 45, ARCANINE, WEEZING, 0
-	db 45, NINETALES, WEEZING 0
+	db 45, NINETALES, WEEZING, 0
 	db 45, MAGMAR, WEEZING, 0
 ; Mansion 2F
 	db 40, GROWLITHE, WEEZING, 0
@@ -402,7 +402,7 @@ BeautyData:
 
 PsychicData:
 ; Saffron Gym
-	db 45, HYPNO 0
+	db 45, HYPNO, 0
 	db 45, MR_MIME, 0
 	db 45, JYNX, 0
 	db 45, SLOWBRO, 0
@@ -502,11 +502,11 @@ ScientistData:
 	db 10, KOFFING, VOLTORB, 0
 ; Silph Co. 2F
 	db 40, MUK, WEEZING, 0
-	db 40, ELECTRODE MAGNETON, 0
+	db 40, ELECTRODE, MAGNETON, 0
 ; Silph Co. 3F/Mansion 1F
 	db 40, ELECTRODE, WEEZING, 0
 ; Silph Co. 4F
-	db 40, ELECTRODE, MUK 0
+	db 40, ELECTRODE, MUK, 0
 ; Silph Co. 5F
 	db 40, MAGNETON, MUK, 0
 ; Silph Co. 6F
