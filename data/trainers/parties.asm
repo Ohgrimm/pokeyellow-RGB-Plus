@@ -669,7 +669,7 @@ GentlemanData:
 ; SS Anne 2F Rooms/Vermilion Gym
 	db 25, VOLTORB, MAGNEMITE, 0
 ; Unused
-	db 48, PRIMEAPE, 0
+	db 50, PRIMEAPE, 0
 ; SS Anne 2F Rooms
 	db 25, GROWLITHE, PONYTA, 0
 

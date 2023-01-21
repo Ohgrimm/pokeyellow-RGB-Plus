@@ -9,13 +9,13 @@ ItemPrices::
 	bcd3 0     ; SURFBOARD
 	bcd3 1000  ; SAFARI_BALL
 	bcd3 0     ; POKEDEX
-	bcd3 5000  ; MOON_STONE
+	bcd3 2500  ; MOON_STONE
 	bcd3 100   ; ANTIDOTE
 	bcd3 100   ; BURN_HEAL
 	bcd3 100   ; ICE_HEAL
 	bcd3 100   ; AWAKENING
 	bcd3 100   ; PARLYZ_HEAL
-	bcd3 6000  ; FULL_RESTORE
+	bcd3 5000  ; FULL_RESTORE
 	bcd3 4500  ; MAX_POTION
 	bcd3 1500  ; HYPER_POTION
 	bcd3 500   ; SUPER_POTION
@@ -29,33 +29,33 @@ ItemPrices::
 	bcd3 0     ; VOLCANOBADGE
 	bcd3 0     ; EARTHBADGE
 	bcd3 100   ; ESCAPE_ROPE
-	bcd3 100   ; REPEL
-	bcd3 10000 ; OLD_AMBER
-	bcd3 5000  ; FIRE_STONE
-	bcd3 5000  ; THUNDER_STONE
-	bcd3 5000  ; WATER_STONE
+	bcd3 300   ; REPEL
+	bcd3 100000 ; OLD_AMBER
+	bcd3 2500  ; FIRE_STONE
+	bcd3 2500  ; THUNDER_STONE
+	bcd3 2500  ; WATER_STONE
 	bcd3 10000 ; HP_UP
 	bcd3 10000 ; PROTEIN
 	bcd3 10000 ; IRON
 	bcd3 10000 ; CARBOS
 	bcd3 10000 ; CALCIUM
 	bcd3 12000 ; RARE_CANDY
-	bcd3 10000 ; DOME_FOSSIL
-	bcd3 10000 ; HELIX_FOSSIL
+	bcd3 100000 ; DOME_FOSSIL
+	bcd3 100000 ; HELIX_FOSSIL
 	bcd3 0     ; SECRET_KEY
 	bcd3 0     ; XXX
 	bcd3 0     ; BIKE_VOUCHER
 	bcd3 100   ; X_ACCURACY
-	bcd3 5000  ; LEAF_STONE
+	bcd3 2500  ; LEAF_STONE
 	bcd3 0     ; CARD_KEY
 	bcd3 48000 ; NUGGET
 	bcd3 0     ; XXX PP_UP
 	bcd3 100   ; POKE_DOLL
-	bcd3 1000  ; FULL_HEAL
-	bcd3 2000  ; REVIVE
-	bcd3 6000  ; MAX_REVIVE
+	bcd3 500   ; FULL_HEAL
+	bcd3 1500  ; REVIVE
+	bcd3 3000  ; MAX_REVIVE
 	bcd3 100   ; GUARD_SPEC
-	bcd3 500   ; SUPER_REPEL
+	bcd3 600   ; SUPER_REPEL
 	bcd3 1000  ; MAX_REPEL
 	bcd3 100   ; DIRE_HIT
 	bcd3 10    ; COIN
@@ -64,7 +64,7 @@ ItemPrices::
 	bcd3 150   ; LEMONADE
 	bcd3 0     ; S_S_TICKET
 	bcd3 0     ; GOLD_TEETH
-	bcd3 5000  ; LINKING_CORD
+	bcd3 2500  ; LINKING_CORD
 	bcd3 100   ; X_DEFEND
 	bcd3 100   ; X_SPEED
 	bcd3 100   ; X_SPECIAL
@@ -79,10 +79,10 @@ ItemPrices::
 	bcd3 0     ; GOOD_ROD
 	bcd3 0     ; SUPER_ROD
 	bcd3 10000 ; PP_UP
-	bcd3 500   ; ETHER
-	bcd3 1000  ; MAX_ETHER
-	bcd3 2000  ; ELIXER
-	bcd3 4000  ; MAX_ELIXER
+	bcd3 250   ; ETHER
+	bcd3 500   ; MAX_ETHER
+	bcd3 1000  ; ELIXER
+	bcd3 2000  ; MAX_ELIXER
 	assert_table_length NUM_ITEMS
 	bcd3 0     ; FLOOR_B2F
 	bcd3 0     ; FLOOR_B1F
